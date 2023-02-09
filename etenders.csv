@@ -1,0 +1,4735 @@
+            Category          ,            Tender Description          ,            Tender No.          ,            Date published          ,            Closing date          ,            Compulsory briefing session          
+"Screen Reader Access
+  
+    
+    
+  
+  
+    
+  
+   
+    
+         
+          
+08-Feb-2023 
+  
+          
+           
+              
+Search
+|
+              
+Active Tenders
+|
+              
+Tenders by Closing Date
+|
+              
+Corrigendum
+|
+              
+Results of Tenders
+          
+          
+          
+          
+               
+                
+                
+                                 
+              
+            
+        
+      
+  
+  
+ 
+    
+    
+    
+« Configuration required for Edge Browser",,,,,
+"// Script to view document in popup
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+ href=mylink;
+else
+href=mylink.href;
+window.open(href, ""Popup"", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes');
+return false;   
+}
+ 
+         
+     
+     
+             
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+ 
+             MIS Reports
+             
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Location
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Organisation
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Classification
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders in Archive
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders Status
+              
+              
+              
+               
+                
+             
+              
+ 
+                Cancelled/Retendered
+              
+              
+              
+               
+                
+             
+              
+ 
+                Downloads
+              
+              
+              
+               
+                
+             
+              
+ 
+                Debarment List
+              
+              
+              
+               
+                
+             
+              
+ 
+                Announcements
+              
+              
+              
+               
+                
+             
+              
+ 
+                Awards
+              
+              
+              
+               
+                
+             
+              
+ 
+                Site compatibility
+              
+              
+              
+               
+                
+             
+              
+ 
+                
+             
+ 
+               
+ 
+             
+             
+             
+               
+                
+             
+               
+             
+             
+             
+               
+                
+             
+               
+             
+             
+             
+               
+                
+             
+               
+             
+             
+             
+               
+                
+             
+              
+ 
+             
+ 
+ 
+  
+  
+var delayTime=500;
+var marqueeSpeed=1;
+var pauseTime=1 ;
+var copySpeed=marqueeSpeed;
+var pauseSpeed=(pauseTime==0)? copySpeed: 0;
+var actualHeight='';
+function ScrollMarquee()
+{
+if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) 
+crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+""px"" ;
+else 
+crossMarquee.style.top=parseInt(marqueeheight)+8+""px"";
+}
+function InitializeMarquee()
+{
+crossMarquee=document.getElementById(""vmarquee"");
+crossMarquee.style.top=0;
+marqueeheight=document.getElementById(""marqueecontainer"").offsetHeight;
+actualHeight=crossMarquee.offsetHeight;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee.style.height=marqueeheight+""px"";
+crossMarquee.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee()"",30)', delayTime);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee);
+else if (document.getElementById)
+window.onload=InitializeMarquee;
+// Corrigendum
+var delayTime1=500;
+var marqueeSpeed1=1;
+var pauseTime1=1 ;
+var copySpeed1=marqueeSpeed1;
+var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0;
+var actualHeight1='';
+function ScrollMarquee1()
+{
+if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) 
+crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+""px"" ;
+else 
+crossMarquee1.style.top=parseInt(marqueeheight1)+8+""px"";
+}
+function InitializeMarquee1()
+{
+crossMarquee1=document.getElementById(""vmarquee1"");
+crossMarquee1.style.top=0;
+marqueeheight1=document.getElementById(""marqueecontainer1"").offsetHeight;
+actualHeight1=crossMarquee1.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee1.style.height=marqueeheight1+""px"";
+crossMarquee1.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee1()"",30)', delayTime1);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee1, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee1);
+else if (document.getElementById)
+window.onload=InitializeMarquee1;
+// Corrigendum
+var delayTime2=500;
+var marqueeSpeed2=1;
+var pauseTime2=1 ;
+var copySpeed2=marqueeSpeed2;
+var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0;
+var actualHeight2='';
+function ScrollMarquee2()
+{
+if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) 
+crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+""px"" ;
+else 
+crossMarquee2.style.top=parseInt(marqueeheight2)+8+""px"";
+}
+function InitializeMarquee2()
+{
+crossMarquee2=document.getElementById(""vmarquee2"");
+crossMarquee2.style.top=0;
+marqueeheight2=document.getElementById(""marqueecontainer2"").offsetHeight;
+actualHeight2=crossMarquee2.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee2.style.height=marqueeheight2+""px"";
+crossMarquee2.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee2()"",30)', delayTime2);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee2, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee2);
+else if (document.getElementById)
+window.onload=InitializeMarquee2;
+// Corrigendum
+var delayTime3=500;
+var marqueeSpeed3=1;
+var pauseTime3=1 ;
+var copySpeed3=marqueeSpeed3;
+var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0;
+var actualHeight3='';
+function ScrollMarquee3()
+{
+if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) 
+crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+""px"" ;
+else 
+crossMarquee3.style.top=parseInt(marqueeheight3)+8+""px"";
+}
+function InitializeMarquee3()
+{
+crossMarquee3=document.getElementById(""vmarquee3"");
+crossMarquee3.style.top=0;
+marqueeheight3=document.getElementById(""marqueecontainer3"").offsetHeight;
+actualHeight3=crossMarquee3.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee3.style.height=marqueeheight3+""px"";
+crossMarquee3.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee3()"",30)', delayTime3);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee3, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee3);
+else if (document.getElementById)
+window.onload=InitializeMarquee3;
+ 
+  
+    
+     
+       $(document).ready(function() {
+            loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp');
+        });
+    
+    var _rootPath = 'https://niccicms.raj.nic.in/nicci/';
+    var _helplineMsg = 'Please contact  Central Public Procurement Portal Helpline Number : 0120 4001002 or 0120 4001005 or 0120 4200462 Or Email : support-eproc[at]nic[dot]in';
+    var _hhelplineMsg = '????? Central Public Procurement Portal ?????? ????????? ???? 0120 4001002 or 0120 4001005 or 0120 4200462 ?? ????????? ???? support-eproc[at]nic[dot]in ?? ?????? ???';
+    var _portalName = 'Central Public Procurement Portal';
+    var _financialYear = '2023-2022';
+    var _regx = '';
+    var _regx_api = '';
+    var _regx_with_pfix = '';
+    var _formatText = '';
+    var _searchType = '0';
+    var _greetMsg = 'Namaskaar';
+    var _greetMsgH = '???????';
+    var _isBiLang = 'False';
+    var _isTagSuggestionOn = 'False';
+    .nicci-rating-star-block .nicci-star.nicci-outline {
+        background: url(""https://niccicms.raj.nic.in/nicci/images/star-empty-lg.png"") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+    .nicci-rating-star-block .nicci-star.nicci-filled {
+        background: url(""https://niccicms.raj.nic.in/nicci/images/star-fill-lg.png"") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+    #niccidiv .post-bot {
+        background: #eeb049 !important;
+        color: white !important;
+    }
+    #niccidiv #start-chat {
+        background: #ff9800 !important;
+    }
+    /* #niccidiv .post-bot:after {
+        border-left-color: #eeb049 !important;
+    }*/
+    #niccidiv #message-board .post-bot {
+        background:  !important;
+    }
+    .blink_status {
+        animation: blinker 1.5s linear infinite;
+    }
+    #Niccislideshow {
+        background: #ff9800 !important;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+    #niccidiv #message-board .niccitgd li.niccitag {
+        border: 1px solid #eeb049;
+    }
+        #niccidiv #message-board .niccitgd li.niccitag:hover {
+            background: #eeb049;
+            color: white;
+        }
+    $(""#Niccislideshow > div:gt(0)"").hide();
+    var bannerCount = 0;
+    function slidePrev() { clearInterval(abcd); $(""#Niccislideshow > div:first"").fadeIn(500).prev().fadeOut(500).end().appendTo(""#Niccislideshow""); }
+    var abcd = setInterval(function () { slideNext(0); }, 4000);
+    $('#Niccislideshow').each(function () {
+        bannerCount = ($('div', this).length);
+        if (bannerCount == 1) {
+            clearInterval(abcd);
+            $("".zoom"").on({
+                'mouseout': function () { clearInterval(abcd); console.log(""mouseout""); }
+            });
+            $(this).css('margin-bottom', '15px');
+        }
+    });
+    function slideNext(flag) { if (flag == 1) { clearInterval(abcd); } $(""#Niccislideshow > div:first"").fadeOut(500).next().fadeIn(500).end().appendTo(""#Niccislideshow""); }
+    function saveChat() {
+        var filename = 'Nicci_Convstn.txt';
+        var mimeType = 'text';
+        var islang_Hindi = false;
+        if ($('#ctl01_chkLang').length > 0)
+            islang_Hindi = $('#ctl01_chkLang').prop('checked');
+        var elHtmlobj = $('#message-board').clone(true);
+        var headerContent = '<head><title>NICCIChat_' + Date.now().toString() + '</title></head><div style=""display:flex;justify-content: flex-end;""><div style=""width:33%;text-align:right;""><img alt="""" src=""' + _rootPath + 'images/mili.png"" style=""width: 50px; border-radius: 25px; ""></div><div style=""width:34%;text-align:center;""><h3>NIC Chat Inteligence (NICCI)</h3></div><div style=""text-align:right;width:33%;""><h5>Date: ' + formatAMPM() + '</h5></div></div>';
+        $(elHtmlobj).find("".post-bot"").each(function (index) {
+            $(this).parent().css('justify-content', '');
+            ($(this).html(""<b> "" + (islang_Hindi ? ""??????: "" : ""NICCI: "") + "" </b>"" + $(this).html()));
+        });
+        $(elHtmlobj).find(""img"").each(function (index) { $(this).remove(); });
+        $(elHtmlobj).find("".post-user"").each(function (index) { ($(this).html(""<b> "" + (islang_Hindi ? ""????: "" : ""USER: "") + "" </b>"" + $(this).html())); });
+        $(elHtmlobj).find("".timestamp"").each(function (index) { $(this).html('\r\n'); });
+        $(elHtmlobj).find("".tags"").each(function (index) { $(this).html(islang_Hindi ? ""<b> ??????: </b> ????? ?????? ???? \r\n"" : ""<b> NICCI: </b> Suggestion List Provided.\r\n""); });
+        elHtml = $(elHtmlobj).html();
+        var footerContent = '<div style=""display:flex;justify-content: flex-end;bottom:0px !important;    position: fixed;width:100%;""><div style=""text-align:center;width:25%;""></div><div style=""text-align:center;width:50%;""><h3>Software Courtesy National Informatics Centre (NIC), Rajasthan</h3></div><div style=""text-align:right;width:25%;""></div></div>';
+        var divContents = headerContent + elHtml + footerContent;
+        var printWindow = window.open('', '', 'height=800,width=600');
+        printWindow.document.title = """";
+        printWindow.document.write(divContents);
+        printWindow.document.close();
+        printWindow.print();
+        printWindow.window.close();
+        //    var link = document.createElement('a');
+        //    mimeType = mimeType || 'text/plain';
+        //    var finltxt = elHtml.replace(/<(.|,)*?>/g, '');
+        //    link.setAttribute('download', filename);
+        //    link.setAttribute('href', 'data:' + mimeType + ';charset=utf-8,' + encodeURIComponent(finltxt.trim()));
+        //    link.click();
+    }
+    function formatAMPM() {
+        var d = new Date(),
+            minutes = d.getMinutes().toString().length == 1 ? '0' + d.getMinutes() : d.getMinutes(),
+            hours = d.getHours().toString().length == 1 ? '0' + d.getHours() : d.getHours(),
+            ampm = d.getHours() >= 12 ? 'PM' : 'AM',
+            months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        return days[d.getDay()] + ' ' + months[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear() + ' ' + hours + ':' + minutes + ' ' + ampm;
+    }
+    
+    
+    
+        
+            Need Help? Ask Nicci
+        
+        
+    
+    
+        
+            
+                
+            
+                
+            
+            
+                
+                
+                    
+                    
+                    NIC Chat Interface (NICCI)
+                    
+                        
+                        
+                        
+                    
+                    
+                    
+                        
+                              Please enter correct Name !!
+                        
+                        
+                        Start
+                    
+                
+                
+                    
+                        
+                    
+                    
+                        
+                            NICCI
+                            
+                            
+                            
+                            Your Digital Assistant
+                        
+                    
+                    
+                        
+                        
+                            
+                                Clear Chat
+                                Minimize
+                                Save Chat
+                                Exit Chat
+                            
+                        
+                    
+                
+                
+                    
+                           
+                       
+                       
+                    
+                    
+                    
+                          Sorry your browser does not support Hindi voice !!
+                    
+                    
+                    
+                        
+                            
+                            Rate Us
+                            
+                            Rate 1
+                            Rate 2
+                            Rate 3
+                            Rate 4
+                            Rate 5
+                            
+                            
+                            
+                            Maximum characters: 180
+                            
+                            
+                               
+                        
+                            
+                        
+                        
+                              Special characters are not allowed
+                        
+                    
+                    
+                
+                
+                    
+                
+                
+                    
+                    
+                
+                
+                    
+                
+                
+                      Special characters are not allowed
+                
+                
+                    
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+            
+        
+    
+    var _bgcolor = '#eeb049';
+    $('#niccidiv .post-bot').css('background', _bgcolor);
+    var _btncolor = '#ff9800';
+    $('#niccidiv #start-chat').css('background', _btncolor);
+    var _cbRespBackColor = '';
+    $('#niccidiv #message-board .post-bot').css('background', _cbRespBackColor);
+    function deviceCheck() {
+        if (navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)) {
+            var x = document.querySelectorAll("".toggleicon"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+            var x = document.querySelectorAll("".mtoggleicon"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+            var x = document.querySelectorAll("".dragme"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+        }
+    }
+    deviceCheck();
+Welcome to eProcurement System
+The eProcurement System enables the Tenderers to download the Tender Schedule free of cost and then submit the bids online through this portal.
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Tender Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. SKM/B378-999-PK-T-3001/1034
+SKM/B378-999-PK-T-3001/1034 
+09-Mar-2023 02:00 PM
+10-Mar-2023 02:00 PM
+ 
+2. Engagement of user fee collection agency on the basis of CB for Hebbalu FP at Km.237.650 for the section of Doddasiddanahally to Hadadi in the state Karnataka
+NHAI/13013/547/ CO/22-23/CB/ Hebbalu FP
+21-Feb-2023 11:00 AM
+22-Feb-2023 11:30 AM
+ 
+3. Construction of 3L River Bridge At Bhukhi Khadhi (Ch.176.420) And Amravati Khadi (Ch.202.845), Additionally Const Of BHS Service Road From Ch.114.470 To 116.180 And Ch.186.885 To 190.675 for Blackspots On Vad-Surat Section Of  NH-48  on EPC Mode.
+NHAI/RO-GNR/Bhukhi-Amravati /NH-48/2023
+13-Mar-2023 03:00 PM
+14-Mar-2023 03:00 PM
+ 
+4. LIGHTWAVE COMPONENT ANALYZER (50GHz - 4 PORTS)
+EE/BIJOY/07/IOE23/LIGHTWAVEANA
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+5. 50 GHz HIGH RESOLUTION REAL TIME OSCILLOSCOPE
+EE/BIJOY/08/IOE23/50GHZHIGHOSC
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+6. NIT No. 18, Item No. 03
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+7. NIT No. 18, Item No. 11
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+8. NIT No. 18, Item No. 07
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+9. NIT No. 18, Item No. 13
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+10. NIT No. 18, Item No. 04
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+     Latest Tenders updates every 15 mins.
+      More...
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Corrigendum Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-5/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+2. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-4/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+3. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/ Mysore-Kushalnagara/Pkg3/ MainworK
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+4. Corrigendum 2
+NHLML/MMLP/BNG/2022
+02-Mar-2023 11:00 AM
+03-Mar-2023 11:30 AM
+ 
+5. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/ Greenfield/PKG 5
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+6. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/Greenfield/PKG-6
+13-Feb-2023 11:00 AM
+14-Feb-2023 11:30 AM
+ 
+7. Corrigendum II
+NHAI/RO-Chennai/NH-32-ROB at Km.51/700/2022-23/107
+14-Feb-2023 05:00 PM
+15-Feb-2023 05:30 PM
+ 
+8. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-III/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+9. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-II/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+10. Corrigendum-III
+NHAI/RO-GNR/NH 48/Blackspot/VUP/2023
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:00 AM
+  
+   
+       Latest Corrigendum updates every 15 mins.
+      More...
+   
+   
+ 
+ 
+ 
+ 
+ 
+Certifying Agency
+ 
+ 
+ 
+      
+<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>
+     
+ 
+   Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>
+ 
+  Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>
+ 
+  Find My Nodal Officer
+     
+  
+ 
+document.getElementById(""login"").style.display='block';
+var all = document.getElementsByClassName(""Clickhere"");
+for (var i = 0; i < all.length; i++) {
+all[i].style.display = 'block';
+    } 
+    
+ 
+Search with ID/Title/Reference no 
+ 
+ 
+  
+  
+   
+ 
+  
+ 
+  
+  
+ 
+    Advanced Search
+  
+  
+  
+  
+ 
+ 
+              
+Help For Contractors
+              
+Information About DSC
+            Guidelines for Hassle Free Bid Submission
+              
+              
+              
+FAQ
+              
+Feedback
+              
+Bidders Manual Kit",,,,,
+"Visitor No:3791839
+  
+  
+Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India  
+ 
+  
+   
+Designed, Developed and Hosted by  National Informatics Centre
+ Version : 1.09.18 04-Feb-2023
+(c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.
+Portal policies",,,,,
+Screen Reader Access,,,,,
+,,,,,
+,,,,,
+"08-Feb-2023 
+  
+          
+           
+              
+Search
+|
+              
+Active Tenders
+|
+              
+Tenders by Closing Date
+|
+              
+Corrigendum
+|
+              
+Results of Tenders",,,,,
+« Configuration required for Edge Browser,,,,,
+Screen Reader Access,,,,,
+08-Feb-2023,"Search
+|
+              
+Active Tenders
+|
+              
+Tenders by Closing Date
+|
+              
+Corrigendum
+|
+              
+Results of Tenders",,,,
+,,,,,
+,« Configuration required for Edge Browser,,,,
+« Configuration required for Edge Browser,,,,,
+"// Script to view document in popup
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+ href=mylink;
+else
+href=mylink.href;
+window.open(href, ""Popup"", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes');
+return false;   
+}
+ 
+         
+     
+     
+             
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+ 
+             MIS Reports
+             
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Location
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Organisation
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Classification
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders in Archive
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders Status
+              
+              
+              
+               
+                
+             
+              
+ 
+                Cancelled/Retendered
+              
+              
+              
+               
+                
+             
+              
+ 
+                Downloads
+              
+              
+              
+               
+                
+             
+              
+ 
+                Debarment List
+              
+              
+              
+               
+                
+             
+              
+ 
+                Announcements
+              
+              
+              
+               
+                
+             
+              
+ 
+                Awards
+              
+              
+              
+               
+                
+             
+              
+ 
+                Site compatibility","var delayTime=500;
+var marqueeSpeed=1;
+var pauseTime=1 ;
+var copySpeed=marqueeSpeed;
+var pauseSpeed=(pauseTime==0)? copySpeed: 0;
+var actualHeight='';
+function ScrollMarquee()
+{
+if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) 
+crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+""px"" ;
+else 
+crossMarquee.style.top=parseInt(marqueeheight)+8+""px"";
+}
+function InitializeMarquee()
+{
+crossMarquee=document.getElementById(""vmarquee"");
+crossMarquee.style.top=0;
+marqueeheight=document.getElementById(""marqueecontainer"").offsetHeight;
+actualHeight=crossMarquee.offsetHeight;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee.style.height=marqueeheight+""px"";
+crossMarquee.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee()"",30)', delayTime);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee);
+else if (document.getElementById)
+window.onload=InitializeMarquee;
+// Corrigendum
+var delayTime1=500;
+var marqueeSpeed1=1;
+var pauseTime1=1 ;
+var copySpeed1=marqueeSpeed1;
+var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0;
+var actualHeight1='';
+function ScrollMarquee1()
+{
+if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) 
+crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+""px"" ;
+else 
+crossMarquee1.style.top=parseInt(marqueeheight1)+8+""px"";
+}
+function InitializeMarquee1()
+{
+crossMarquee1=document.getElementById(""vmarquee1"");
+crossMarquee1.style.top=0;
+marqueeheight1=document.getElementById(""marqueecontainer1"").offsetHeight;
+actualHeight1=crossMarquee1.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee1.style.height=marqueeheight1+""px"";
+crossMarquee1.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee1()"",30)', delayTime1);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee1, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee1);
+else if (document.getElementById)
+window.onload=InitializeMarquee1;
+// Corrigendum
+var delayTime2=500;
+var marqueeSpeed2=1;
+var pauseTime2=1 ;
+var copySpeed2=marqueeSpeed2;
+var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0;
+var actualHeight2='';
+function ScrollMarquee2()
+{
+if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) 
+crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+""px"" ;
+else 
+crossMarquee2.style.top=parseInt(marqueeheight2)+8+""px"";
+}
+function InitializeMarquee2()
+{
+crossMarquee2=document.getElementById(""vmarquee2"");
+crossMarquee2.style.top=0;
+marqueeheight2=document.getElementById(""marqueecontainer2"").offsetHeight;
+actualHeight2=crossMarquee2.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee2.style.height=marqueeheight2+""px"";
+crossMarquee2.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee2()"",30)', delayTime2);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee2, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee2);
+else if (document.getElementById)
+window.onload=InitializeMarquee2;
+// Corrigendum
+var delayTime3=500;
+var marqueeSpeed3=1;
+var pauseTime3=1 ;
+var copySpeed3=marqueeSpeed3;
+var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0;
+var actualHeight3='';
+function ScrollMarquee3()
+{
+if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) 
+crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+""px"" ;
+else 
+crossMarquee3.style.top=parseInt(marqueeheight3)+8+""px"";
+}
+function InitializeMarquee3()
+{
+crossMarquee3=document.getElementById(""vmarquee3"");
+crossMarquee3.style.top=0;
+marqueeheight3=document.getElementById(""marqueecontainer3"").offsetHeight;
+actualHeight3=crossMarquee3.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee3.style.height=marqueeheight3+""px"";
+crossMarquee3.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee3()"",30)', delayTime3);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee3, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee3);
+else if (document.getElementById)
+window.onload=InitializeMarquee3;
+ 
+  
+    
+     
+       $(document).ready(function() {
+            loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp');
+        });
+    
+    var _rootPath = 'https://niccicms.raj.nic.in/nicci/';
+    var _helplineMsg = 'Please contact  Central Public Procurement Portal Helpline Number : 0120 4001002 or 0120 4001005 or 0120 4200462 Or Email : support-eproc[at]nic[dot]in';
+    var _hhelplineMsg = '????? Central Public Procurement Portal ?????? ????????? ???? 0120 4001002 or 0120 4001005 or 0120 4200462 ?? ????????? ???? support-eproc[at]nic[dot]in ?? ?????? ???';
+    var _portalName = 'Central Public Procurement Portal';
+    var _financialYear = '2023-2022';
+    var _regx = '';
+    var _regx_api = '';
+    var _regx_with_pfix = '';
+    var _formatText = '';
+    var _searchType = '0';
+    var _greetMsg = 'Namaskaar';
+    var _greetMsgH = '???????';
+    var _isBiLang = 'False';
+    var _isTagSuggestionOn = 'False';
+    .nicci-rating-star-block .nicci-star.nicci-outline {
+        background: url(""https://niccicms.raj.nic.in/nicci/images/star-empty-lg.png"") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+    .nicci-rating-star-block .nicci-star.nicci-filled {
+        background: url(""https://niccicms.raj.nic.in/nicci/images/star-fill-lg.png"") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+    #niccidiv .post-bot {
+        background: #eeb049 !important;
+        color: white !important;
+    }
+    #niccidiv #start-chat {
+        background: #ff9800 !important;
+    }
+    /* #niccidiv .post-bot:after {
+        border-left-color: #eeb049 !important;
+    }*/
+    #niccidiv #message-board .post-bot {
+        background:  !important;
+    }
+    .blink_status {
+        animation: blinker 1.5s linear infinite;
+    }
+    #Niccislideshow {
+        background: #ff9800 !important;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+    #niccidiv #message-board .niccitgd li.niccitag {
+        border: 1px solid #eeb049;
+    }
+        #niccidiv #message-board .niccitgd li.niccitag:hover {
+            background: #eeb049;
+            color: white;
+        }
+    $(""#Niccislideshow > div:gt(0)"").hide();
+    var bannerCount = 0;
+    function slidePrev() { clearInterval(abcd); $(""#Niccislideshow > div:first"").fadeIn(500).prev().fadeOut(500).end().appendTo(""#Niccislideshow""); }
+    var abcd = setInterval(function () { slideNext(0); }, 4000);
+    $('#Niccislideshow').each(function () {
+        bannerCount = ($('div', this).length);
+        if (bannerCount == 1) {
+            clearInterval(abcd);
+            $("".zoom"").on({
+                'mouseout': function () { clearInterval(abcd); console.log(""mouseout""); }
+            });
+            $(this).css('margin-bottom', '15px');
+        }
+    });
+    function slideNext(flag) { if (flag == 1) { clearInterval(abcd); } $(""#Niccislideshow > div:first"").fadeOut(500).next().fadeIn(500).end().appendTo(""#Niccislideshow""); }
+    function saveChat() {
+        var filename = 'Nicci_Convstn.txt';
+        var mimeType = 'text';
+        var islang_Hindi = false;
+        if ($('#ctl01_chkLang').length > 0)
+            islang_Hindi = $('#ctl01_chkLang').prop('checked');
+        var elHtmlobj = $('#message-board').clone(true);
+        var headerContent = '<head><title>NICCIChat_' + Date.now().toString() + '</title></head><div style=""display:flex;justify-content: flex-end;""><div style=""width:33%;text-align:right;""><img alt="""" src=""' + _rootPath + 'images/mili.png"" style=""width: 50px; border-radius: 25px; ""></div><div style=""width:34%;text-align:center;""><h3>NIC Chat Inteligence (NICCI)</h3></div><div style=""text-align:right;width:33%;""><h5>Date: ' + formatAMPM() + '</h5></div></div>';
+        $(elHtmlobj).find("".post-bot"").each(function (index) {
+            $(this).parent().css('justify-content', '');
+            ($(this).html(""<b> "" + (islang_Hindi ? ""??????: "" : ""NICCI: "") + "" </b>"" + $(this).html()));
+        });
+        $(elHtmlobj).find(""img"").each(function (index) { $(this).remove(); });
+        $(elHtmlobj).find("".post-user"").each(function (index) { ($(this).html(""<b> "" + (islang_Hindi ? ""????: "" : ""USER: "") + "" </b>"" + $(this).html())); });
+        $(elHtmlobj).find("".timestamp"").each(function (index) { $(this).html('\r\n'); });
+        $(elHtmlobj).find("".tags"").each(function (index) { $(this).html(islang_Hindi ? ""<b> ??????: </b> ????? ?????? ???? \r\n"" : ""<b> NICCI: </b> Suggestion List Provided.\r\n""); });
+        elHtml = $(elHtmlobj).html();
+        var footerContent = '<div style=""display:flex;justify-content: flex-end;bottom:0px !important;    position: fixed;width:100%;""><div style=""text-align:center;width:25%;""></div><div style=""text-align:center;width:50%;""><h3>Software Courtesy National Informatics Centre (NIC), Rajasthan</h3></div><div style=""text-align:right;width:25%;""></div></div>';
+        var divContents = headerContent + elHtml + footerContent;
+        var printWindow = window.open('', '', 'height=800,width=600');
+        printWindow.document.title = """";
+        printWindow.document.write(divContents);
+        printWindow.document.close();
+        printWindow.print();
+        printWindow.window.close();
+        //    var link = document.createElement('a');
+        //    mimeType = mimeType || 'text/plain';
+        //    var finltxt = elHtml.replace(/<(.|,)*?>/g, '');
+        //    link.setAttribute('download', filename);
+        //    link.setAttribute('href', 'data:' + mimeType + ';charset=utf-8,' + encodeURIComponent(finltxt.trim()));
+        //    link.click();
+    }
+    function formatAMPM() {
+        var d = new Date(),
+            minutes = d.getMinutes().toString().length == 1 ? '0' + d.getMinutes() : d.getMinutes(),
+            hours = d.getHours().toString().length == 1 ? '0' + d.getHours() : d.getHours(),
+            ampm = d.getHours() >= 12 ? 'PM' : 'AM',
+            months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        return days[d.getDay()] + ' ' + months[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear() + ' ' + hours + ':' + minutes + ' ' + ampm;
+    }
+    
+    
+    
+        
+            Need Help? Ask Nicci
+        
+        
+    
+    
+        
+            
+                
+            
+                
+            
+            
+                
+                
+                    
+                    
+                    NIC Chat Interface (NICCI)
+                    
+                        
+                        
+                        
+                    
+                    
+                    
+                        
+                              Please enter correct Name !!
+                        
+                        
+                        Start
+                    
+                
+                
+                    
+                        
+                    
+                    
+                        
+                            NICCI
+                            
+                            
+                            
+                            Your Digital Assistant
+                        
+                    
+                    
+                        
+                        
+                            
+                                Clear Chat
+                                Minimize
+                                Save Chat
+                                Exit Chat
+                            
+                        
+                    
+                
+                
+                    
+                           
+                       
+                       
+                    
+                    
+                    
+                          Sorry your browser does not support Hindi voice !!
+                    
+                    
+                    
+                        
+                            
+                            Rate Us
+                            
+                            Rate 1
+                            Rate 2
+                            Rate 3
+                            Rate 4
+                            Rate 5
+                            
+                            
+                            
+                            Maximum characters: 180
+                            
+                            
+                               
+                        
+                            
+                        
+                        
+                              Special characters are not allowed
+                        
+                    
+                    
+                
+                
+                    
+                
+                
+                    
+                    
+                
+                
+                    
+                
+                
+                      Special characters are not allowed
+                
+                
+                    
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+            
+        
+    
+    var _bgcolor = '#eeb049';
+    $('#niccidiv .post-bot').css('background', _bgcolor);
+    var _btncolor = '#ff9800';
+    $('#niccidiv #start-chat').css('background', _btncolor);
+    var _cbRespBackColor = '';
+    $('#niccidiv #message-board .post-bot').css('background', _cbRespBackColor);
+    function deviceCheck() {
+        if (navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)) {
+            var x = document.querySelectorAll("".toggleicon"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+            var x = document.querySelectorAll("".mtoggleicon"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+            var x = document.querySelectorAll("".dragme"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+        }
+    }
+    deviceCheck();
+Welcome to eProcurement System
+The eProcurement System enables the Tenderers to download the Tender Schedule free of cost and then submit the bids online through this portal.
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Tender Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. SKM/B378-999-PK-T-3001/1034
+SKM/B378-999-PK-T-3001/1034 
+09-Mar-2023 02:00 PM
+10-Mar-2023 02:00 PM
+ 
+2. Engagement of user fee collection agency on the basis of CB for Hebbalu FP at Km.237.650 for the section of Doddasiddanahally to Hadadi in the state Karnataka
+NHAI/13013/547/ CO/22-23/CB/ Hebbalu FP
+21-Feb-2023 11:00 AM
+22-Feb-2023 11:30 AM
+ 
+3. Construction of 3L River Bridge At Bhukhi Khadhi (Ch.176.420) And Amravati Khadi (Ch.202.845), Additionally Const Of BHS Service Road From Ch.114.470 To 116.180 And Ch.186.885 To 190.675 for Blackspots On Vad-Surat Section Of  NH-48  on EPC Mode.
+NHAI/RO-GNR/Bhukhi-Amravati /NH-48/2023
+13-Mar-2023 03:00 PM
+14-Mar-2023 03:00 PM
+ 
+4. LIGHTWAVE COMPONENT ANALYZER (50GHz - 4 PORTS)
+EE/BIJOY/07/IOE23/LIGHTWAVEANA
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+5. 50 GHz HIGH RESOLUTION REAL TIME OSCILLOSCOPE
+EE/BIJOY/08/IOE23/50GHZHIGHOSC
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+6. NIT No. 18, Item No. 03
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+7. NIT No. 18, Item No. 11
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+8. NIT No. 18, Item No. 07
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+9. NIT No. 18, Item No. 13
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+10. NIT No. 18, Item No. 04
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+     Latest Tenders updates every 15 mins.
+      More...
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Corrigendum Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-5/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+2. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-4/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+3. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/ Mysore-Kushalnagara/Pkg3/ MainworK
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+4. Corrigendum 2
+NHLML/MMLP/BNG/2022
+02-Mar-2023 11:00 AM
+03-Mar-2023 11:30 AM
+ 
+5. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/ Greenfield/PKG 5
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+6. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/Greenfield/PKG-6
+13-Feb-2023 11:00 AM
+14-Feb-2023 11:30 AM
+ 
+7. Corrigendum II
+NHAI/RO-Chennai/NH-32-ROB at Km.51/700/2022-23/107
+14-Feb-2023 05:00 PM
+15-Feb-2023 05:30 PM
+ 
+8. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-III/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+9. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-II/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+10. Corrigendum-III
+NHAI/RO-GNR/NH 48/Blackspot/VUP/2023
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:00 AM
+  
+   
+       Latest Corrigendum updates every 15 mins.
+      More...
+   
+   
+ 
+ 
+ 
+ 
+ 
+Certifying Agency","<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>
+     
+ 
+   Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>
+ 
+  Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>
+ 
+  Find My Nodal Officer
+     
+  
+ 
+document.getElementById(""login"").style.display='block';
+var all = document.getElementsByClassName(""Clickhere"");
+for (var i = 0; i < all.length; i++) {
+all[i].style.display = 'block';
+    } 
+    
+ 
+Search with ID/Title/Reference no 
+ 
+ 
+  
+  
+   
+ 
+  
+ 
+  
+  
+ 
+    Advanced Search
+  
+  
+  
+  
+ 
+ 
+              
+Help For Contractors
+              
+Information About DSC
+            Guidelines for Hassle Free Bid Submission
+              
+              
+              
+FAQ
+              
+Feedback
+              
+Bidders Manual Kit",,,
+,,,,,
+"MIS Reports
+             
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Location
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Organisation
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Classification
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders in Archive
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders Status
+              
+              
+              
+               
+                
+             
+              
+ 
+                Cancelled/Retendered
+              
+              
+              
+               
+                
+             
+              
+ 
+                Downloads
+              
+              
+              
+               
+                
+             
+              
+ 
+                Debarment List
+              
+              
+              
+               
+                
+             
+              
+ 
+                Announcements
+              
+              
+              
+               
+                
+             
+              
+ 
+                Awards
+              
+              
+              
+               
+                
+             
+              
+ 
+                Site compatibility",,,,,
+MIS Reports,,,,,
+,,,,,
+Tenders by Location,,,,,
+,,,,,
+Tenders by Organisation,,,,,
+,,,,,
+Tenders by Classification,,,,,
+,,,,,
+Tenders in Archive,,,,,
+,,,,,
+Tenders Status,,,,,
+,,,,,
+Cancelled/Retendered,,,,,
+,,,,,
+Downloads,,,,,
+,,,,,
+Debarment List,,,,,
+,,,,,
+Announcements,,,,,
+,,,,,
+Awards,,,,,
+,,,,,
+Site compatibility,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"Welcome to eProcurement System
+The eProcurement System enables the Tenderers to download the Tender Schedule free of cost and then submit the bids online through this portal.",,,,,
+,,,,,
+,,,,,
+"Tender Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. SKM/B378-999-PK-T-3001/1034
+SKM/B378-999-PK-T-3001/1034 
+09-Mar-2023 02:00 PM
+10-Mar-2023 02:00 PM
+ 
+2. Engagement of user fee collection agency on the basis of CB for Hebbalu FP at Km.237.650 for the section of Doddasiddanahally to Hadadi in the state Karnataka
+NHAI/13013/547/ CO/22-23/CB/ Hebbalu FP
+21-Feb-2023 11:00 AM
+22-Feb-2023 11:30 AM
+ 
+3. Construction of 3L River Bridge At Bhukhi Khadhi (Ch.176.420) And Amravati Khadi (Ch.202.845), Additionally Const Of BHS Service Road From Ch.114.470 To 116.180 And Ch.186.885 To 190.675 for Blackspots On Vad-Surat Section Of  NH-48  on EPC Mode.
+NHAI/RO-GNR/Bhukhi-Amravati /NH-48/2023
+13-Mar-2023 03:00 PM
+14-Mar-2023 03:00 PM
+ 
+4. LIGHTWAVE COMPONENT ANALYZER (50GHz - 4 PORTS)
+EE/BIJOY/07/IOE23/LIGHTWAVEANA
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+5. 50 GHz HIGH RESOLUTION REAL TIME OSCILLOSCOPE
+EE/BIJOY/08/IOE23/50GHZHIGHOSC
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+6. NIT No. 18, Item No. 03
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+7. NIT No. 18, Item No. 11
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+8. NIT No. 18, Item No. 07
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+9. NIT No. 18, Item No. 13
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+10. NIT No. 18, Item No. 04
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+     Latest Tenders updates every 15 mins.
+      More...
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Corrigendum Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-5/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+2. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-4/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+3. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/ Mysore-Kushalnagara/Pkg3/ MainworK
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+4. Corrigendum 2
+NHLML/MMLP/BNG/2022
+02-Mar-2023 11:00 AM
+03-Mar-2023 11:30 AM
+ 
+5. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/ Greenfield/PKG 5
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+6. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/Greenfield/PKG-6
+13-Feb-2023 11:00 AM
+14-Feb-2023 11:30 AM
+ 
+7. Corrigendum II
+NHAI/RO-Chennai/NH-32-ROB at Km.51/700/2022-23/107
+14-Feb-2023 05:00 PM
+15-Feb-2023 05:30 PM
+ 
+8. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-III/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+9. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-II/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+10. Corrigendum-III
+NHAI/RO-GNR/NH 48/Blackspot/VUP/2023
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:00 AM
+  
+   
+       Latest Corrigendum updates every 15 mins.
+      More...",,,,,
+,,,,,
+Certifying Agency,,,,,
+Welcome to eProcurement System,,,,,
+The eProcurement System enables the Tenderers to download the Tender Schedule free of cost and then submit the bids online through this portal.,,,,,
+,,,,,
+,,,,,
+"Tender Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. SKM/B378-999-PK-T-3001/1034
+SKM/B378-999-PK-T-3001/1034 
+09-Mar-2023 02:00 PM
+10-Mar-2023 02:00 PM
+ 
+2. Engagement of user fee collection agency on the basis of CB for Hebbalu FP at Km.237.650 for the section of Doddasiddanahally to Hadadi in the state Karnataka
+NHAI/13013/547/ CO/22-23/CB/ Hebbalu FP
+21-Feb-2023 11:00 AM
+22-Feb-2023 11:30 AM
+ 
+3. Construction of 3L River Bridge At Bhukhi Khadhi (Ch.176.420) And Amravati Khadi (Ch.202.845), Additionally Const Of BHS Service Road From Ch.114.470 To 116.180 And Ch.186.885 To 190.675 for Blackspots On Vad-Surat Section Of  NH-48  on EPC Mode.
+NHAI/RO-GNR/Bhukhi-Amravati /NH-48/2023
+13-Mar-2023 03:00 PM
+14-Mar-2023 03:00 PM
+ 
+4. LIGHTWAVE COMPONENT ANALYZER (50GHz - 4 PORTS)
+EE/BIJOY/07/IOE23/LIGHTWAVEANA
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+5. 50 GHz HIGH RESOLUTION REAL TIME OSCILLOSCOPE
+EE/BIJOY/08/IOE23/50GHZHIGHOSC
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+6. NIT No. 18, Item No. 03
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+7. NIT No. 18, Item No. 11
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+8. NIT No. 18, Item No. 07
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+9. NIT No. 18, Item No. 13
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+10. NIT No. 18, Item No. 04
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+     Latest Tenders updates every 15 mins.
+      More...",,,,,
+,,,,,
+,,,,,
+"Corrigendum Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-5/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+2. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-4/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+3. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/ Mysore-Kushalnagara/Pkg3/ MainworK
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+4. Corrigendum 2
+NHLML/MMLP/BNG/2022
+02-Mar-2023 11:00 AM
+03-Mar-2023 11:30 AM
+ 
+5. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/ Greenfield/PKG 5
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+6. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/Greenfield/PKG-6
+13-Feb-2023 11:00 AM
+14-Feb-2023 11:30 AM
+ 
+7. Corrigendum II
+NHAI/RO-Chennai/NH-32-ROB at Km.51/700/2022-23/107
+14-Feb-2023 05:00 PM
+15-Feb-2023 05:30 PM
+ 
+8. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-III/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+9. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-II/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+10. Corrigendum-III
+NHAI/RO-GNR/NH 48/Blackspot/VUP/2023
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:00 AM
+  
+   
+       Latest Corrigendum updates every 15 mins.
+      More...",,,,,
+"Tender Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. SKM/B378-999-PK-T-3001/1034
+SKM/B378-999-PK-T-3001/1034 
+09-Mar-2023 02:00 PM
+10-Mar-2023 02:00 PM
+ 
+2. Engagement of user fee collection agency on the basis of CB for Hebbalu FP at Km.237.650 for the section of Doddasiddanahally to Hadadi in the state Karnataka
+NHAI/13013/547/ CO/22-23/CB/ Hebbalu FP
+21-Feb-2023 11:00 AM
+22-Feb-2023 11:30 AM
+ 
+3. Construction of 3L River Bridge At Bhukhi Khadhi (Ch.176.420) And Amravati Khadi (Ch.202.845), Additionally Const Of BHS Service Road From Ch.114.470 To 116.180 And Ch.186.885 To 190.675 for Blackspots On Vad-Surat Section Of  NH-48  on EPC Mode.
+NHAI/RO-GNR/Bhukhi-Amravati /NH-48/2023
+13-Mar-2023 03:00 PM
+14-Mar-2023 03:00 PM
+ 
+4. LIGHTWAVE COMPONENT ANALYZER (50GHz - 4 PORTS)
+EE/BIJOY/07/IOE23/LIGHTWAVEANA
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+5. 50 GHz HIGH RESOLUTION REAL TIME OSCILLOSCOPE
+EE/BIJOY/08/IOE23/50GHZHIGHOSC
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+6. NIT No. 18, Item No. 03
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+7. NIT No. 18, Item No. 11
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+8. NIT No. 18, Item No. 07
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+9. NIT No. 18, Item No. 13
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+10. NIT No. 18, Item No. 04
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+     Latest Tenders updates every 15 mins.
+      More...",,,,,
+Tender Title,Reference No,Closing Date,Bid Opening Date,,
+"1. SKM/B378-999-PK-T-3001/1034
+SKM/B378-999-PK-T-3001/1034 
+09-Mar-2023 02:00 PM
+10-Mar-2023 02:00 PM
+ 
+2. Engagement of user fee collection agency on the basis of CB for Hebbalu FP at Km.237.650 for the section of Doddasiddanahally to Hadadi in the state Karnataka
+NHAI/13013/547/ CO/22-23/CB/ Hebbalu FP
+21-Feb-2023 11:00 AM
+22-Feb-2023 11:30 AM
+ 
+3. Construction of 3L River Bridge At Bhukhi Khadhi (Ch.176.420) And Amravati Khadi (Ch.202.845), Additionally Const Of BHS Service Road From Ch.114.470 To 116.180 And Ch.186.885 To 190.675 for Blackspots On Vad-Surat Section Of  NH-48  on EPC Mode.
+NHAI/RO-GNR/Bhukhi-Amravati /NH-48/2023
+13-Mar-2023 03:00 PM
+14-Mar-2023 03:00 PM
+ 
+4. LIGHTWAVE COMPONENT ANALYZER (50GHz - 4 PORTS)
+EE/BIJOY/07/IOE23/LIGHTWAVEANA
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+5. 50 GHz HIGH RESOLUTION REAL TIME OSCILLOSCOPE
+EE/BIJOY/08/IOE23/50GHZHIGHOSC
+21-Feb-2023 03:00 PM
+22-Feb-2023 03:00 PM
+ 
+6. NIT No. 18, Item No. 03
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+7. NIT No. 18, Item No. 11
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+8. NIT No. 18, Item No. 07
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+9. NIT No. 18, Item No. 13
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM
+ 
+10. NIT No. 18, Item No. 04
+EE(M-I)-NGZ/MCD/2022-23/18
+15-Feb-2023 03:00 PM
+15-Feb-2023 03:05 PM",,,,,
+Latest Tenders updates every 15 mins.,More...,,,,
+1. SKM/B378-999-PK-T-3001/1034,SKM/B378-999-PK-T-3001/1034,09-Mar-2023 02:00 PM,10-Mar-2023 02:00 PM,,
+2. Engagement of user fee collection agency on the basis of CB for Hebbalu FP at Km.237.650 for the section of Doddasiddanahally to Hadadi in the state Karnataka,NHAI/13013/547/ CO/22-23/CB/ Hebbalu FP,21-Feb-2023 11:00 AM,22-Feb-2023 11:30 AM,,
+"3. Construction of 3L River Bridge At Bhukhi Khadhi (Ch.176.420) And Amravati Khadi (Ch.202.845), Additionally Const Of BHS Service Road From Ch.114.470 To 116.180 And Ch.186.885 To 190.675 for Blackspots On Vad-Surat Section Of  NH-48  on EPC Mode.",NHAI/RO-GNR/Bhukhi-Amravati /NH-48/2023,13-Mar-2023 03:00 PM,14-Mar-2023 03:00 PM,,
+4. LIGHTWAVE COMPONENT ANALYZER (50GHz - 4 PORTS),EE/BIJOY/07/IOE23/LIGHTWAVEANA,21-Feb-2023 03:00 PM,22-Feb-2023 03:00 PM,,
+5. 50 GHz HIGH RESOLUTION REAL TIME OSCILLOSCOPE,EE/BIJOY/08/IOE23/50GHZHIGHOSC,21-Feb-2023 03:00 PM,22-Feb-2023 03:00 PM,,
+"6. NIT No. 18, Item No. 03",EE(M-I)-NGZ/MCD/2022-23/18,15-Feb-2023 03:00 PM,15-Feb-2023 03:05 PM,,
+"7. NIT No. 18, Item No. 11",EE(M-I)-NGZ/MCD/2022-23/18,15-Feb-2023 03:00 PM,15-Feb-2023 03:05 PM,,
+"8. NIT No. 18, Item No. 07",EE(M-I)-NGZ/MCD/2022-23/18,15-Feb-2023 03:00 PM,15-Feb-2023 03:05 PM,,
+"9. NIT No. 18, Item No. 13",EE(M-I)-NGZ/MCD/2022-23/18,15-Feb-2023 03:00 PM,15-Feb-2023 03:05 PM,,
+"10. NIT No. 18, Item No. 04",EE(M-I)-NGZ/MCD/2022-23/18,15-Feb-2023 03:00 PM,15-Feb-2023 03:05 PM,,
+"Corrigendum Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-5/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+2. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-4/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+3. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/ Mysore-Kushalnagara/Pkg3/ MainworK
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+4. Corrigendum 2
+NHLML/MMLP/BNG/2022
+02-Mar-2023 11:00 AM
+03-Mar-2023 11:30 AM
+ 
+5. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/ Greenfield/PKG 5
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+6. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/Greenfield/PKG-6
+13-Feb-2023 11:00 AM
+14-Feb-2023 11:30 AM
+ 
+7. Corrigendum II
+NHAI/RO-Chennai/NH-32-ROB at Km.51/700/2022-23/107
+14-Feb-2023 05:00 PM
+15-Feb-2023 05:30 PM
+ 
+8. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-III/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+9. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-II/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+10. Corrigendum-III
+NHAI/RO-GNR/NH 48/Blackspot/VUP/2023
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:00 AM
+  
+   
+       Latest Corrigendum updates every 15 mins.
+      More...",,,,,
+Corrigendum Title,Reference No,Closing Date,Bid Opening Date,,
+"1. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-5/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+2. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-4/MW/2022
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+3. Reply to Prebid queries and Corrigendum 9
+NHAI/KNT/NIT/ Mysore-Kushalnagara/Pkg3/ MainworK
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+4. Corrigendum 2
+NHLML/MMLP/BNG/2022
+02-Mar-2023 11:00 AM
+03-Mar-2023 11:30 AM
+ 
+5. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/ Greenfield/PKG 5
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:30 AM
+ 
+6. Bidding excel sheet
+NHAI/BM/EC/Bengaluru Vijayawada/Greenfield/PKG-6
+13-Feb-2023 11:00 AM
+14-Feb-2023 11:30 AM
+ 
+7. Corrigendum II
+NHAI/RO-Chennai/NH-32-ROB at Km.51/700/2022-23/107
+14-Feb-2023 05:00 PM
+15-Feb-2023 05:30 PM
+ 
+8. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-III/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+9. CORRIGENDUM II
+NHAI/HQ/GM-Tel/ Mach-War/Pkg-II/GFA/4L-HAM
+22-Feb-2023 11:00 AM
+23-Feb-2023 11:30 AM
+ 
+10. Corrigendum-III
+NHAI/RO-GNR/NH 48/Blackspot/VUP/2023
+16-Feb-2023 11:00 AM
+17-Feb-2023 11:00 AM",,,,,
+Latest Corrigendum updates every 15 mins.,More...,,,,
+1. Reply to Prebid queries and Corrigendum 9,NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-5/MW/2022,16-Feb-2023 11:00 AM,17-Feb-2023 11:30 AM,,
+2. Reply to Prebid queries and Corrigendum 9,NHAI/KNT/NIT/Mysore Kushalnagara/Pkg-4/MW/2022,16-Feb-2023 11:00 AM,17-Feb-2023 11:30 AM,,
+3. Reply to Prebid queries and Corrigendum 9,NHAI/KNT/NIT/ Mysore-Kushalnagara/Pkg3/ MainworK,16-Feb-2023 11:00 AM,17-Feb-2023 11:30 AM,,
+4. Corrigendum 2,NHLML/MMLP/BNG/2022,02-Mar-2023 11:00 AM,03-Mar-2023 11:30 AM,,
+5. Bidding excel sheet,NHAI/BM/EC/Bengaluru Vijayawada/ Greenfield/PKG 5,16-Feb-2023 11:00 AM,17-Feb-2023 11:30 AM,,
+6. Bidding excel sheet,NHAI/BM/EC/Bengaluru Vijayawada/Greenfield/PKG-6,13-Feb-2023 11:00 AM,14-Feb-2023 11:30 AM,,
+7. Corrigendum II,NHAI/RO-Chennai/NH-32-ROB at Km.51/700/2022-23/107,14-Feb-2023 05:00 PM,15-Feb-2023 05:30 PM,,
+8. CORRIGENDUM II,NHAI/HQ/GM-Tel/ Mach-War/Pkg-III/GFA/4L-HAM,22-Feb-2023 11:00 AM,23-Feb-2023 11:30 AM,,
+9. CORRIGENDUM II,NHAI/HQ/GM-Tel/ Mach-War/Pkg-II/GFA/4L-HAM,22-Feb-2023 11:00 AM,23-Feb-2023 11:30 AM,,
+10. Corrigendum-III,NHAI/RO-GNR/NH 48/Blackspot/VUP/2023,16-Feb-2023 11:00 AM,17-Feb-2023 11:00 AM,,
+Certifying Agency,,,,,
+,,,,,
+,,,,,
+"<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>
+     
+ 
+   Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>
+ 
+  Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>
+ 
+  Find My Nodal Officer
+     
+  
+ 
+document.getElementById(""login"").style.display='block';
+var all = document.getElementsByClassName(""Clickhere"");
+for (var i = 0; i < all.length; i++) {
+all[i].style.display = 'block';
+    }",,,,,
+Search with ID/Title/Reference no,,,,,
+Advanced Search,,,,,
+"Help For Contractors
+              
+Information About DSC
+            Guidelines for Hassle Free Bid Submission
+              
+              
+              
+FAQ
+              
+Feedback
+              
+Bidders Manual Kit",,,,,
+"<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>
+     
+ 
+   Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>
+ 
+  Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>
+ 
+  Find My Nodal Officer",,,,,
+"<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>
+     
+ 
+   Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>
+ 
+  Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>
+ 
+  Find My Nodal Officer",,,,,
+"<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",,,,,
+"Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>",,,,,
+"Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>",,,,,
+Find My Nodal Officer,,,,,
+,,,,,
+Advanced Search,,,,,
+Advanced Search,,,,,
+,,,,,
+,,,,,
+Advanced Search,,,,,
+"Help For Contractors
+              
+Information About DSC
+            Guidelines for Hassle Free Bid Submission
+              
+              
+              
+FAQ
+              
+Feedback
+              
+Bidders Manual Kit",,,,,
+"Help For Contractors
+              
+Information About DSC
+            Guidelines for Hassle Free Bid Submission
+              
+              
+              
+FAQ
+              
+Feedback
+              
+Bidders Manual Kit",,,,,
+Visitor No:3791839,,,,,
+"Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India",,,,,
+"Designed, Developed and Hosted by  National Informatics Centre
+ Version : 1.09.18 04-Feb-2023
+(c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.
+Portal policies",,,,,
+"Designed, Developed and Hosted by  National Informatics Centre","Version : 1.09.18 04-Feb-2023
+(c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.",Portal policies,,,
+"Screen Reader Access
+  
+    
+    
+  
+  
+    
+  
+   
+    
+         
+          
+09-Feb-2023 
+  
+          
+           
+              
+Search
+|
+              
+Active Tenders
+|
+              
+Tenders by Closing Date
+|
+              
+Corrigendum
+|
+              
+Results of Tenders
+          
+          
+          
+          
+               
+                
+                
+                                 
+              
+            
+        
+      
+  
+  
+ 
+    
+    
+    
+« Configuration required for Edge Browser",,,,,
+"// Script to view document in popup
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+ href=mylink;
+else
+href=mylink.href;
+window.open(href, ""Popup"", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes');
+return false;   
+}
+ 
+         
+     
+     
+             
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+ 
+             MIS Reports
+             
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Location
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Organisation
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Classification
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders in Archive
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders Status
+              
+              
+              
+               
+                
+             
+              
+ 
+                Cancelled/Retendered
+              
+              
+              
+               
+                
+             
+              
+ 
+                Downloads
+              
+              
+              
+               
+                
+             
+              
+ 
+                Debarment List
+              
+              
+              
+               
+                
+             
+              
+ 
+                Announcements
+              
+              
+              
+               
+                
+             
+              
+ 
+                Awards
+              
+              
+              
+               
+                
+             
+              
+ 
+                Site compatibility
+              
+              
+              
+               
+                
+             
+              
+ 
+                
+             
+ 
+               
+ 
+             
+             
+             
+               
+                
+             
+               
+             
+             
+             
+               
+                
+             
+               
+             
+             
+             
+               
+                
+             
+               
+             
+             
+             
+               
+                
+             
+              
+ 
+             
+ 
+ 
+  
+  
+var delayTime=500;
+var marqueeSpeed=1;
+var pauseTime=1 ;
+var copySpeed=marqueeSpeed;
+var pauseSpeed=(pauseTime==0)? copySpeed: 0;
+var actualHeight='';
+function ScrollMarquee()
+{
+if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) 
+crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+""px"" ;
+else 
+crossMarquee.style.top=parseInt(marqueeheight)+8+""px"";
+}
+function InitializeMarquee()
+{
+crossMarquee=document.getElementById(""vmarquee"");
+crossMarquee.style.top=0;
+marqueeheight=document.getElementById(""marqueecontainer"").offsetHeight;
+actualHeight=crossMarquee.offsetHeight;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee.style.height=marqueeheight+""px"";
+crossMarquee.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee()"",30)', delayTime);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee);
+else if (document.getElementById)
+window.onload=InitializeMarquee;
+// Corrigendum
+var delayTime1=500;
+var marqueeSpeed1=1;
+var pauseTime1=1 ;
+var copySpeed1=marqueeSpeed1;
+var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0;
+var actualHeight1='';
+function ScrollMarquee1()
+{
+if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) 
+crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+""px"" ;
+else 
+crossMarquee1.style.top=parseInt(marqueeheight1)+8+""px"";
+}
+function InitializeMarquee1()
+{
+crossMarquee1=document.getElementById(""vmarquee1"");
+crossMarquee1.style.top=0;
+marqueeheight1=document.getElementById(""marqueecontainer1"").offsetHeight;
+actualHeight1=crossMarquee1.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee1.style.height=marqueeheight1+""px"";
+crossMarquee1.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee1()"",30)', delayTime1);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee1, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee1);
+else if (document.getElementById)
+window.onload=InitializeMarquee1;
+// Corrigendum
+var delayTime2=500;
+var marqueeSpeed2=1;
+var pauseTime2=1 ;
+var copySpeed2=marqueeSpeed2;
+var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0;
+var actualHeight2='';
+function ScrollMarquee2()
+{
+if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) 
+crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+""px"" ;
+else 
+crossMarquee2.style.top=parseInt(marqueeheight2)+8+""px"";
+}
+function InitializeMarquee2()
+{
+crossMarquee2=document.getElementById(""vmarquee2"");
+crossMarquee2.style.top=0;
+marqueeheight2=document.getElementById(""marqueecontainer2"").offsetHeight;
+actualHeight2=crossMarquee2.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee2.style.height=marqueeheight2+""px"";
+crossMarquee2.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee2()"",30)', delayTime2);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee2, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee2);
+else if (document.getElementById)
+window.onload=InitializeMarquee2;
+// Corrigendum
+var delayTime3=500;
+var marqueeSpeed3=1;
+var pauseTime3=1 ;
+var copySpeed3=marqueeSpeed3;
+var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0;
+var actualHeight3='';
+function ScrollMarquee3()
+{
+if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) 
+crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+""px"" ;
+else 
+crossMarquee3.style.top=parseInt(marqueeheight3)+8+""px"";
+}
+function InitializeMarquee3()
+{
+crossMarquee3=document.getElementById(""vmarquee3"");
+crossMarquee3.style.top=0;
+marqueeheight3=document.getElementById(""marqueecontainer3"").offsetHeight;
+actualHeight3=crossMarquee3.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee3.style.height=marqueeheight3+""px"";
+crossMarquee3.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee3()"",30)', delayTime3);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee3, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee3);
+else if (document.getElementById)
+window.onload=InitializeMarquee3;
+ 
+  
+    
+     
+       $(document).ready(function() {
+            loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp');
+        });
+    
+    var _rootPath = 'https://niccicms.raj.nic.in/nicci/';
+    var _helplineMsg = 'Please contact  Central Public Procurement Portal Helpline Number : 0120 4001002 or 0120 4001005 or 0120 4200462 Or Email : support-eproc[at]nic[dot]in';
+    var _hhelplineMsg = '????? Central Public Procurement Portal ?????? ????????? ???? 0120 4001002 or 0120 4001005 or 0120 4200462 ?? ????????? ???? support-eproc[at]nic[dot]in ?? ?????? ???';
+    var _portalName = 'Central Public Procurement Portal';
+    var _financialYear = '2023-2022';
+    var _regx = '';
+    var _regx_api = '';
+    var _regx_with_pfix = '';
+    var _formatText = '';
+    var _searchType = '0';
+    var _greetMsg = 'Namaskaar';
+    var _greetMsgH = '???????';
+    var _isBiLang = 'False';
+    var _isTagSuggestionOn = 'False';
+    .nicci-rating-star-block .nicci-star.nicci-outline {
+        background: url(""https://niccicms.raj.nic.in/nicci/images/star-empty-lg.png"") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+    .nicci-rating-star-block .nicci-star.nicci-filled {
+        background: url(""https://niccicms.raj.nic.in/nicci/images/star-fill-lg.png"") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+    #niccidiv .post-bot {
+        background: #eeb049 !important;
+        color: white !important;
+    }
+    #niccidiv #start-chat {
+        background: #ff9800 !important;
+    }
+    /* #niccidiv .post-bot:after {
+        border-left-color: #eeb049 !important;
+    }*/
+    #niccidiv #message-board .post-bot {
+        background:  !important;
+    }
+    .blink_status {
+        animation: blinker 1.5s linear infinite;
+    }
+    #Niccislideshow {
+        background: #ff9800 !important;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+    #niccidiv #message-board .niccitgd li.niccitag {
+        border: 1px solid #eeb049;
+    }
+        #niccidiv #message-board .niccitgd li.niccitag:hover {
+            background: #eeb049;
+            color: white;
+        }
+    $(""#Niccislideshow > div:gt(0)"").hide();
+    var bannerCount = 0;
+    function slidePrev() { clearInterval(abcd); $(""#Niccislideshow > div:first"").fadeIn(500).prev().fadeOut(500).end().appendTo(""#Niccislideshow""); }
+    var abcd = setInterval(function () { slideNext(0); }, 4000);
+    $('#Niccislideshow').each(function () {
+        bannerCount = ($('div', this).length);
+        if (bannerCount == 1) {
+            clearInterval(abcd);
+            $("".zoom"").on({
+                'mouseout': function () { clearInterval(abcd); console.log(""mouseout""); }
+            });
+            $(this).css('margin-bottom', '15px');
+        }
+    });
+    function slideNext(flag) { if (flag == 1) { clearInterval(abcd); } $(""#Niccislideshow > div:first"").fadeOut(500).next().fadeIn(500).end().appendTo(""#Niccislideshow""); }
+    function saveChat() {
+        var filename = 'Nicci_Convstn.txt';
+        var mimeType = 'text';
+        var islang_Hindi = false;
+        if ($('#ctl01_chkLang').length > 0)
+            islang_Hindi = $('#ctl01_chkLang').prop('checked');
+        var elHtmlobj = $('#message-board').clone(true);
+        var headerContent = '<head><title>NICCIChat_' + Date.now().toString() + '</title></head><div style=""display:flex;justify-content: flex-end;""><div style=""width:33%;text-align:right;""><img alt="""" src=""' + _rootPath + 'images/mili.png"" style=""width: 50px; border-radius: 25px; ""></div><div style=""width:34%;text-align:center;""><h3>NIC Chat Inteligence (NICCI)</h3></div><div style=""text-align:right;width:33%;""><h5>Date: ' + formatAMPM() + '</h5></div></div>';
+        $(elHtmlobj).find("".post-bot"").each(function (index) {
+            $(this).parent().css('justify-content', '');
+            ($(this).html(""<b> "" + (islang_Hindi ? ""??????: "" : ""NICCI: "") + "" </b>"" + $(this).html()));
+        });
+        $(elHtmlobj).find(""img"").each(function (index) { $(this).remove(); });
+        $(elHtmlobj).find("".post-user"").each(function (index) { ($(this).html(""<b> "" + (islang_Hindi ? ""????: "" : ""USER: "") + "" </b>"" + $(this).html())); });
+        $(elHtmlobj).find("".timestamp"").each(function (index) { $(this).html('\r\n'); });
+        $(elHtmlobj).find("".tags"").each(function (index) { $(this).html(islang_Hindi ? ""<b> ??????: </b> ????? ?????? ???? \r\n"" : ""<b> NICCI: </b> Suggestion List Provided.\r\n""); });
+        elHtml = $(elHtmlobj).html();
+        var footerContent = '<div style=""display:flex;justify-content: flex-end;bottom:0px !important;    position: fixed;width:100%;""><div style=""text-align:center;width:25%;""></div><div style=""text-align:center;width:50%;""><h3>Software Courtesy National Informatics Centre (NIC), Rajasthan</h3></div><div style=""text-align:right;width:25%;""></div></div>';
+        var divContents = headerContent + elHtml + footerContent;
+        var printWindow = window.open('', '', 'height=800,width=600');
+        printWindow.document.title = """";
+        printWindow.document.write(divContents);
+        printWindow.document.close();
+        printWindow.print();
+        printWindow.window.close();
+        //    var link = document.createElement('a');
+        //    mimeType = mimeType || 'text/plain';
+        //    var finltxt = elHtml.replace(/<(.|,)*?>/g, '');
+        //    link.setAttribute('download', filename);
+        //    link.setAttribute('href', 'data:' + mimeType + ';charset=utf-8,' + encodeURIComponent(finltxt.trim()));
+        //    link.click();
+    }
+    function formatAMPM() {
+        var d = new Date(),
+            minutes = d.getMinutes().toString().length == 1 ? '0' + d.getMinutes() : d.getMinutes(),
+            hours = d.getHours().toString().length == 1 ? '0' + d.getHours() : d.getHours(),
+            ampm = d.getHours() >= 12 ? 'PM' : 'AM',
+            months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        return days[d.getDay()] + ' ' + months[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear() + ' ' + hours + ':' + minutes + ' ' + ampm;
+    }
+    
+    
+    
+        
+            Need Help? Ask Nicci
+        
+        
+    
+    
+        
+            
+                
+            
+                
+            
+            
+                
+                
+                    
+                    
+                    NIC Chat Interface (NICCI)
+                    
+                        
+                        
+                        
+                    
+                    
+                    
+                        
+                              Please enter correct Name !!
+                        
+                        
+                        Start
+                    
+                
+                
+                    
+                        
+                    
+                    
+                        
+                            NICCI
+                            
+                            
+                            
+                            Your Digital Assistant
+                        
+                    
+                    
+                        
+                        
+                            
+                                Clear Chat
+                                Minimize
+                                Save Chat
+                                Exit Chat
+                            
+                        
+                    
+                
+                
+                    
+                           
+                       
+                       
+                    
+                    
+                    
+                          Sorry your browser does not support Hindi voice !!
+                    
+                    
+                    
+                        
+                            
+                            Rate Us
+                            
+                            Rate 1
+                            Rate 2
+                            Rate 3
+                            Rate 4
+                            Rate 5
+                            
+                            
+                            
+                            Maximum characters: 180
+                            
+                            
+                               
+                        
+                            
+                        
+                        
+                              Special characters are not allowed
+                        
+                    
+                    
+                
+                
+                    
+                
+                
+                    
+                    
+                
+                
+                    
+                
+                
+                      Special characters are not allowed
+                
+                
+                    
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+            
+        
+    
+    var _bgcolor = '#eeb049';
+    $('#niccidiv .post-bot').css('background', _bgcolor);
+    var _btncolor = '#ff9800';
+    $('#niccidiv #start-chat').css('background', _btncolor);
+    var _cbRespBackColor = '';
+    $('#niccidiv #message-board .post-bot').css('background', _cbRespBackColor);
+    function deviceCheck() {
+        if (navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)) {
+            var x = document.querySelectorAll("".toggleicon"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+            var x = document.querySelectorAll("".mtoggleicon"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+            var x = document.querySelectorAll("".dragme"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+        }
+    }
+    deviceCheck();
+Welcome to eProcurement System
+The eProcurement System enables the Tenderers to download the Tender Schedule free of cost and then submit the bids online through this portal.
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Tender Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Engagement of user fee agency on the basis of EQ through etender for Annampalli FP (Km 78.000) for rehabilitation and upgradation of Gurajanapalli to Pasarlapudi of NH-216 to two lane with paved shoulder in the State of Andhra Pradesh on EPC mode
+NHAI/13013/547/ CO/22-23/EQ/ Annampalli FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+2. Procurement of Intel Based 2U Rack Server with Intel Xeon Gold 6238R Processor, 16 Gigabit LAN and power cable
+34-IMP-32-P-22
+02-Mar-2023 03:00 PM
+03-Mar-2023 03:00 PM
+ 
+3. Tender for Rate Contract for the period of 2 (Two) years for comprehensive AMC of UPS installed at LCNG, COCO, OLS and DBS CNG Stations at Nashik GA.
+MNGL/CP/2022-23/201
+23-Feb-2023 03:00 PM
+24-Feb-2023 04:00 PM
+ 
+4. Procurement of Automated Microwave Synthesizer (MWS) with batch capacity
+34-IMP-13-P-22
+02-Mar-2023 01:00 PM
+03-Mar-2023 01:00 PM
+ 
+5. Repair of Public Toilet Blocks at 1554, Teplist Colony Kashmere Gate and Imp./repair of Urinals of Kashmiri Gate in Ward No. 74, Chandni Chowk CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.08
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+6. Engagement of user fee agency on the basis of EQ through etender for Kherli Daula and IGI User FP for Delhi-Gurgaon sec of NH8 into Access Controlled 8/6 lane Highway in the state of Delhi and Haryana
+NHAI/13013/547/CO/22-23/EQ/ Kherli Daula IGI FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+7. Road Marking at various roads/lanes and painting of Manholes/Gully Chambers in Ward 74, Chandni Chowk, CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.09
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+8. IE for Const of 4lane AC GF Atal Progway Chambal Expway from 94.100 sada ka pada in Sheopur to 155.400 Chhavar in Sheopur Pkg3-Const of 4lane AC GF Atal Progway Chambal Expway from 155.400 Chhavar in Sheopur to 206.000 Jhundpura in Morena Pkg4 
+NHAI/HQ/MP/ AtalProgressway/IE/ Pkg-3n4/2023
+13-Mar-2023 11:00 AM
+14-Mar-2023 11:30 AM
+ 
+9. Procurement of Chemicals
+5(22)/2022/Pur/T-175
+23-Feb-2023 03:00 PM
+24-Feb-2023 03:00 PM
+ 
+10. Operation and Maintenance of SS, Terminal Building, MSSR, Colony and NDB at VSS Airport, Jharsuguda for two years (2023-2025)
+AAI/JSG/AGM(EE)/eNIT-13/2023
+02-Mar-2023 06:00 PM
+06-Mar-2023 09:00 AM
+     Latest Tenders updates every 15 mins.
+      More...
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Corrigendum Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+2. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+3. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+4. Tech Report part 5
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+5. Tech Report part 4
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+6. Tech Report part 3
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+7. Tech Report part 2
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+8. Tech Report part 1
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+9. Final TDDR and ETC data
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+10. Corrigendum 09-02-2023
+NHIPMPL/2022-23/KK/AE/43
+20-Feb-2023 11:00 AM
+21-Feb-2023 11:30 AM
+  
+   
+       Latest Corrigendum updates every 15 mins.
+      More...
+   
+   
+ 
+ 
+ 
+ 
+ 
+Certifying Agency
+ 
+ 
+ 
+      
+<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>
+     
+ 
+   Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>
+ 
+  Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>
+ 
+  Find My Nodal Officer
+     
+  
+ 
+document.getElementById(""login"").style.display='block';
+var all = document.getElementsByClassName(""Clickhere"");
+for (var i = 0; i < all.length; i++) {
+all[i].style.display = 'block';
+    } 
+    
+ 
+Search with ID/Title/Reference no 
+ 
+ 
+  
+  
+   
+ 
+  
+ 
+  
+  
+ 
+    Advanced Search
+  
+  
+  
+  
+ 
+ 
+              
+Help For Contractors
+              
+Information About DSC
+            Guidelines for Hassle Free Bid Submission
+              
+              
+              
+FAQ
+              
+Feedback
+              
+Bidders Manual Kit",,,,,
+"Visitor No:3791839
+  
+  
+Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India  
+ 
+  
+   
+Designed, Developed and Hosted by  National Informatics Centre
+ Version : 1.09.18 04-Feb-2023
+(c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.
+Portal policies",,,,,
+Screen Reader Access,,,,,
+,,,,,
+,,,,,
+"09-Feb-2023 
+  
+          
+           
+              
+Search
+|
+              
+Active Tenders
+|
+              
+Tenders by Closing Date
+|
+              
+Corrigendum
+|
+              
+Results of Tenders",,,,,
+« Configuration required for Edge Browser,,,,,
+Screen Reader Access,,,,,
+09-Feb-2023,"Search
+|
+              
+Active Tenders
+|
+              
+Tenders by Closing Date
+|
+              
+Corrigendum
+|
+              
+Results of Tenders",,,,
+,,,,,
+,« Configuration required for Edge Browser,,,,
+« Configuration required for Edge Browser,,,,,
+"// Script to view document in popup
+function popup(mylink, windowname)
+{
+if (! window.focus)return true;
+var href;
+if (typeof(mylink) == 'string')
+ href=mylink;
+else
+href=mylink.href;
+window.open(href, ""Popup"", 'location=no, scrollbars=yes, toolbar=no, width=700, height=550, directories=no, menubar=no, resizable=yes, status=no, titlebar=yes');
+return false;   
+}
+ 
+         
+     
+     
+             
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+ 
+             MIS Reports
+             
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Location
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Organisation
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Classification
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders in Archive
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders Status
+              
+              
+              
+               
+                
+             
+              
+ 
+                Cancelled/Retendered
+              
+              
+              
+               
+                
+             
+              
+ 
+                Downloads
+              
+              
+              
+               
+                
+             
+              
+ 
+                Debarment List
+              
+              
+              
+               
+                
+             
+              
+ 
+                Announcements
+              
+              
+              
+               
+                
+             
+              
+ 
+                Awards
+              
+              
+              
+               
+                
+             
+              
+ 
+                Site compatibility","var delayTime=500;
+var marqueeSpeed=1;
+var pauseTime=1 ;
+var copySpeed=marqueeSpeed;
+var pauseSpeed=(pauseTime==0)? copySpeed: 0;
+var actualHeight='';
+function ScrollMarquee()
+{
+if (parseInt(crossMarquee.style.top)>(actualHeight*(-1)+8)) 
+crossMarquee.style.top=parseInt(crossMarquee.style.top)-copySpeed+""px"" ;
+else 
+crossMarquee.style.top=parseInt(marqueeheight)+8+""px"";
+}
+function InitializeMarquee()
+{
+crossMarquee=document.getElementById(""vmarquee"");
+crossMarquee.style.top=0;
+marqueeheight=document.getElementById(""marqueecontainer"").offsetHeight;
+actualHeight=crossMarquee.offsetHeight;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee.style.height=marqueeheight+""px"";
+crossMarquee.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee()"",30)', delayTime);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee);
+else if (document.getElementById)
+window.onload=InitializeMarquee;
+// Corrigendum
+var delayTime1=500;
+var marqueeSpeed1=1;
+var pauseTime1=1 ;
+var copySpeed1=marqueeSpeed1;
+var pauseSpeed1=(pauseTime1==0)? copySpeed1: 0;
+var actualHeight1='';
+function ScrollMarquee1()
+{
+if (parseInt(crossMarquee1.style.top)>(actualHeight1*(-1)+8)) 
+crossMarquee1.style.top=parseInt(crossMarquee1.style.top)-copySpeed1+""px"" ;
+else 
+crossMarquee1.style.top=parseInt(marqueeheight1)+8+""px"";
+}
+function InitializeMarquee1()
+{
+crossMarquee1=document.getElementById(""vmarquee1"");
+crossMarquee1.style.top=0;
+marqueeheight1=document.getElementById(""marqueecontainer1"").offsetHeight;
+actualHeight1=crossMarquee1.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee1.style.height=marqueeheight1+""px"";
+crossMarquee1.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee1()"",30)', delayTime1);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee1, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee1);
+else if (document.getElementById)
+window.onload=InitializeMarquee1;
+// Corrigendum
+var delayTime2=500;
+var marqueeSpeed2=1;
+var pauseTime2=1 ;
+var copySpeed2=marqueeSpeed2;
+var pauseSpeed2=(pauseTime2==0)? copySpeed2: 0;
+var actualHeight2='';
+function ScrollMarquee2()
+{
+if (parseInt(crossMarquee2.style.top)>(actualHeight2*(-1)+8)) 
+crossMarquee2.style.top=parseInt(crossMarquee2.style.top)-copySpeed2+""px"" ;
+else 
+crossMarquee2.style.top=parseInt(marqueeheight2)+8+""px"";
+}
+function InitializeMarquee2()
+{
+crossMarquee2=document.getElementById(""vmarquee2"");
+crossMarquee2.style.top=0;
+marqueeheight2=document.getElementById(""marqueecontainer2"").offsetHeight;
+actualHeight2=crossMarquee2.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee2.style.height=marqueeheight2+""px"";
+crossMarquee2.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee2()"",30)', delayTime2);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee2, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee2);
+else if (document.getElementById)
+window.onload=InitializeMarquee2;
+// Corrigendum
+var delayTime3=500;
+var marqueeSpeed3=1;
+var pauseTime3=1 ;
+var copySpeed3=marqueeSpeed3;
+var pauseSpeed3=(pauseTime3==0)? copySpeed3: 0;
+var actualHeight3='';
+function ScrollMarquee3()
+{
+if (parseInt(crossMarquee3.style.top)>(actualHeight3*(-1)+8)) 
+crossMarquee3.style.top=parseInt(crossMarquee3.style.top)-copySpeed3+""px"" ;
+else 
+crossMarquee3.style.top=parseInt(marqueeheight3)+8+""px"";
+}
+function InitializeMarquee3()
+{
+crossMarquee3=document.getElementById(""vmarquee3"");
+crossMarquee3.style.top=0;
+marqueeheight3=document.getElementById(""marqueecontainer3"").offsetHeight;
+actualHeight3=crossMarquee3.offsetHeight ;
+if (window.opera || navigator.userAgent.indexOf(""Netscape/7"")!=-1)
+{ 
+crossMarquee3.style.height=marqueeheight3+""px"";
+crossMarquee3.style.overflow=""scroll"";
+return;
+}
+setTimeout('lefttime=setInterval(""ScrollMarquee3()"",30)', delayTime3);
+}
+if (window.addEventListener)
+window.addEventListener(""load"", InitializeMarquee3, false);
+else if (window.attachEvent)
+window.attachEvent(""onload"", InitializeMarquee3);
+else if (document.getElementById)
+window.onload=InitializeMarquee3;
+ 
+  
+    
+     
+       $(document).ready(function() {
+            loadnicci('ContentNicci', 'vDOWF0A7F0DUpjzp');
+        });
+    
+    var _rootPath = 'https://niccicms.raj.nic.in/nicci/';
+    var _helplineMsg = 'Please contact  Central Public Procurement Portal Helpline Number : 0120 4001002 or 0120 4001005 or 0120 4200462 Or Email : support-eproc[at]nic[dot]in';
+    var _hhelplineMsg = '????? Central Public Procurement Portal ?????? ????????? ???? 0120 4001002 or 0120 4001005 or 0120 4200462 ?? ????????? ???? support-eproc[at]nic[dot]in ?? ?????? ???';
+    var _portalName = 'Central Public Procurement Portal';
+    var _financialYear = '2023-2022';
+    var _regx = '';
+    var _regx_api = '';
+    var _regx_with_pfix = '';
+    var _formatText = '';
+    var _searchType = '0';
+    var _greetMsg = 'Namaskaar';
+    var _greetMsgH = '???????';
+    var _isBiLang = 'False';
+    var _isTagSuggestionOn = 'False';
+    .nicci-rating-star-block .nicci-star.nicci-outline {
+        background: url(""https://niccicms.raj.nic.in/nicci/images/star-empty-lg.png"") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+    .nicci-rating-star-block .nicci-star.nicci-filled {
+        background: url(""https://niccicms.raj.nic.in/nicci/images/star-fill-lg.png"") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    }
+    #niccidiv .post-bot {
+        background: #eeb049 !important;
+        color: white !important;
+    }
+    #niccidiv #start-chat {
+        background: #ff9800 !important;
+    }
+    /* #niccidiv .post-bot:after {
+        border-left-color: #eeb049 !important;
+    }*/
+    #niccidiv #message-board .post-bot {
+        background:  !important;
+    }
+    .blink_status {
+        animation: blinker 1.5s linear infinite;
+    }
+    #Niccislideshow {
+        background: #ff9800 !important;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+    #niccidiv #message-board .niccitgd li.niccitag {
+        border: 1px solid #eeb049;
+    }
+        #niccidiv #message-board .niccitgd li.niccitag:hover {
+            background: #eeb049;
+            color: white;
+        }
+    $(""#Niccislideshow > div:gt(0)"").hide();
+    var bannerCount = 0;
+    function slidePrev() { clearInterval(abcd); $(""#Niccislideshow > div:first"").fadeIn(500).prev().fadeOut(500).end().appendTo(""#Niccislideshow""); }
+    var abcd = setInterval(function () { slideNext(0); }, 4000);
+    $('#Niccislideshow').each(function () {
+        bannerCount = ($('div', this).length);
+        if (bannerCount == 1) {
+            clearInterval(abcd);
+            $("".zoom"").on({
+                'mouseout': function () { clearInterval(abcd); console.log(""mouseout""); }
+            });
+            $(this).css('margin-bottom', '15px');
+        }
+    });
+    function slideNext(flag) { if (flag == 1) { clearInterval(abcd); } $(""#Niccislideshow > div:first"").fadeOut(500).next().fadeIn(500).end().appendTo(""#Niccislideshow""); }
+    function saveChat() {
+        var filename = 'Nicci_Convstn.txt';
+        var mimeType = 'text';
+        var islang_Hindi = false;
+        if ($('#ctl01_chkLang').length > 0)
+            islang_Hindi = $('#ctl01_chkLang').prop('checked');
+        var elHtmlobj = $('#message-board').clone(true);
+        var headerContent = '<head><title>NICCIChat_' + Date.now().toString() + '</title></head><div style=""display:flex;justify-content: flex-end;""><div style=""width:33%;text-align:right;""><img alt="""" src=""' + _rootPath + 'images/mili.png"" style=""width: 50px; border-radius: 25px; ""></div><div style=""width:34%;text-align:center;""><h3>NIC Chat Inteligence (NICCI)</h3></div><div style=""text-align:right;width:33%;""><h5>Date: ' + formatAMPM() + '</h5></div></div>';
+        $(elHtmlobj).find("".post-bot"").each(function (index) {
+            $(this).parent().css('justify-content', '');
+            ($(this).html(""<b> "" + (islang_Hindi ? ""??????: "" : ""NICCI: "") + "" </b>"" + $(this).html()));
+        });
+        $(elHtmlobj).find(""img"").each(function (index) { $(this).remove(); });
+        $(elHtmlobj).find("".post-user"").each(function (index) { ($(this).html(""<b> "" + (islang_Hindi ? ""????: "" : ""USER: "") + "" </b>"" + $(this).html())); });
+        $(elHtmlobj).find("".timestamp"").each(function (index) { $(this).html('\r\n'); });
+        $(elHtmlobj).find("".tags"").each(function (index) { $(this).html(islang_Hindi ? ""<b> ??????: </b> ????? ?????? ???? \r\n"" : ""<b> NICCI: </b> Suggestion List Provided.\r\n""); });
+        elHtml = $(elHtmlobj).html();
+        var footerContent = '<div style=""display:flex;justify-content: flex-end;bottom:0px !important;    position: fixed;width:100%;""><div style=""text-align:center;width:25%;""></div><div style=""text-align:center;width:50%;""><h3>Software Courtesy National Informatics Centre (NIC), Rajasthan</h3></div><div style=""text-align:right;width:25%;""></div></div>';
+        var divContents = headerContent + elHtml + footerContent;
+        var printWindow = window.open('', '', 'height=800,width=600');
+        printWindow.document.title = """";
+        printWindow.document.write(divContents);
+        printWindow.document.close();
+        printWindow.print();
+        printWindow.window.close();
+        //    var link = document.createElement('a');
+        //    mimeType = mimeType || 'text/plain';
+        //    var finltxt = elHtml.replace(/<(.|,)*?>/g, '');
+        //    link.setAttribute('download', filename);
+        //    link.setAttribute('href', 'data:' + mimeType + ';charset=utf-8,' + encodeURIComponent(finltxt.trim()));
+        //    link.click();
+    }
+    function formatAMPM() {
+        var d = new Date(),
+            minutes = d.getMinutes().toString().length == 1 ? '0' + d.getMinutes() : d.getMinutes(),
+            hours = d.getHours().toString().length == 1 ? '0' + d.getHours() : d.getHours(),
+            ampm = d.getHours() >= 12 ? 'PM' : 'AM',
+            months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+            days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+        return days[d.getDay()] + ' ' + months[d.getMonth()] + ' ' + d.getDate() + ' ' + d.getFullYear() + ' ' + hours + ':' + minutes + ' ' + ampm;
+    }
+    
+    
+    
+        
+            Need Help? Ask Nicci
+        
+        
+    
+    
+        
+            
+                
+            
+                
+            
+            
+                
+                
+                    
+                    
+                    NIC Chat Interface (NICCI)
+                    
+                        
+                        
+                        
+                    
+                    
+                    
+                        
+                              Please enter correct Name !!
+                        
+                        
+                        Start
+                    
+                
+                
+                    
+                        
+                    
+                    
+                        
+                            NICCI
+                            
+                            
+                            
+                            Your Digital Assistant
+                        
+                    
+                    
+                        
+                        
+                            
+                                Clear Chat
+                                Minimize
+                                Save Chat
+                                Exit Chat
+                            
+                        
+                    
+                
+                
+                    
+                           
+                       
+                       
+                    
+                    
+                    
+                          Sorry your browser does not support Hindi voice !!
+                    
+                    
+                    
+                        
+                            
+                            Rate Us
+                            
+                            Rate 1
+                            Rate 2
+                            Rate 3
+                            Rate 4
+                            Rate 5
+                            
+                            
+                            
+                            Maximum characters: 180
+                            
+                            
+                               
+                        
+                            
+                        
+                        
+                              Special characters are not allowed
+                        
+                    
+                    
+                
+                
+                    
+                
+                
+                    
+                    
+                
+                
+                    
+                
+                
+                      Special characters are not allowed
+                
+                
+                    
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+            
+        
+    
+    var _bgcolor = '#eeb049';
+    $('#niccidiv .post-bot').css('background', _bgcolor);
+    var _btncolor = '#ff9800';
+    $('#niccidiv #start-chat').css('background', _btncolor);
+    var _cbRespBackColor = '';
+    $('#niccidiv #message-board .post-bot').css('background', _cbRespBackColor);
+    function deviceCheck() {
+        if (navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)) {
+            var x = document.querySelectorAll("".toggleicon"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+            var x = document.querySelectorAll("".mtoggleicon"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+            var x = document.querySelectorAll("".dragme"");
+            x[0].style.setProperty(""display"", ""none"", ""important"");
+        }
+    }
+    deviceCheck();
+Welcome to eProcurement System
+The eProcurement System enables the Tenderers to download the Tender Schedule free of cost and then submit the bids online through this portal.
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Tender Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Engagement of user fee agency on the basis of EQ through etender for Annampalli FP (Km 78.000) for rehabilitation and upgradation of Gurajanapalli to Pasarlapudi of NH-216 to two lane with paved shoulder in the State of Andhra Pradesh on EPC mode
+NHAI/13013/547/ CO/22-23/EQ/ Annampalli FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+2. Procurement of Intel Based 2U Rack Server with Intel Xeon Gold 6238R Processor, 16 Gigabit LAN and power cable
+34-IMP-32-P-22
+02-Mar-2023 03:00 PM
+03-Mar-2023 03:00 PM
+ 
+3. Tender for Rate Contract for the period of 2 (Two) years for comprehensive AMC of UPS installed at LCNG, COCO, OLS and DBS CNG Stations at Nashik GA.
+MNGL/CP/2022-23/201
+23-Feb-2023 03:00 PM
+24-Feb-2023 04:00 PM
+ 
+4. Procurement of Automated Microwave Synthesizer (MWS) with batch capacity
+34-IMP-13-P-22
+02-Mar-2023 01:00 PM
+03-Mar-2023 01:00 PM
+ 
+5. Repair of Public Toilet Blocks at 1554, Teplist Colony Kashmere Gate and Imp./repair of Urinals of Kashmiri Gate in Ward No. 74, Chandni Chowk CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.08
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+6. Engagement of user fee agency on the basis of EQ through etender for Kherli Daula and IGI User FP for Delhi-Gurgaon sec of NH8 into Access Controlled 8/6 lane Highway in the state of Delhi and Haryana
+NHAI/13013/547/CO/22-23/EQ/ Kherli Daula IGI FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+7. Road Marking at various roads/lanes and painting of Manholes/Gully Chambers in Ward 74, Chandni Chowk, CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.09
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+8. IE for Const of 4lane AC GF Atal Progway Chambal Expway from 94.100 sada ka pada in Sheopur to 155.400 Chhavar in Sheopur Pkg3-Const of 4lane AC GF Atal Progway Chambal Expway from 155.400 Chhavar in Sheopur to 206.000 Jhundpura in Morena Pkg4 
+NHAI/HQ/MP/ AtalProgressway/IE/ Pkg-3n4/2023
+13-Mar-2023 11:00 AM
+14-Mar-2023 11:30 AM
+ 
+9. Procurement of Chemicals
+5(22)/2022/Pur/T-175
+23-Feb-2023 03:00 PM
+24-Feb-2023 03:00 PM
+ 
+10. Operation and Maintenance of SS, Terminal Building, MSSR, Colony and NDB at VSS Airport, Jharsuguda for two years (2023-2025)
+AAI/JSG/AGM(EE)/eNIT-13/2023
+02-Mar-2023 06:00 PM
+06-Mar-2023 09:00 AM
+     Latest Tenders updates every 15 mins.
+      More...
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Corrigendum Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+2. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+3. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+4. Tech Report part 5
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+5. Tech Report part 4
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+6. Tech Report part 3
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+7. Tech Report part 2
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+8. Tech Report part 1
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+9. Final TDDR and ETC data
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+10. Corrigendum 09-02-2023
+NHIPMPL/2022-23/KK/AE/43
+20-Feb-2023 11:00 AM
+21-Feb-2023 11:30 AM
+  
+   
+       Latest Corrigendum updates every 15 mins.
+      More...
+   
+   
+ 
+ 
+ 
+ 
+ 
+Certifying Agency","<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>
+     
+ 
+   Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>
+ 
+  Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>
+ 
+  Find My Nodal Officer
+     
+  
+ 
+document.getElementById(""login"").style.display='block';
+var all = document.getElementsByClassName(""Clickhere"");
+for (var i = 0; i < all.length; i++) {
+all[i].style.display = 'block';
+    } 
+    
+ 
+Search with ID/Title/Reference no 
+ 
+ 
+  
+  
+   
+ 
+  
+ 
+  
+  
+ 
+    Advanced Search
+  
+  
+  
+  
+ 
+ 
+              
+Help For Contractors
+              
+Information About DSC
+            Guidelines for Hassle Free Bid Submission
+              
+              
+              
+FAQ
+              
+Feedback
+              
+Bidders Manual Kit",,,
+,,,,,
+"MIS Reports
+             
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Location
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Organisation
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders by Classification
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders in Archive
+              
+              
+              
+               
+                
+             
+              
+ 
+                Tenders Status
+              
+              
+              
+               
+                
+             
+              
+ 
+                Cancelled/Retendered
+              
+              
+              
+               
+                
+             
+              
+ 
+                Downloads
+              
+              
+              
+               
+                
+             
+              
+ 
+                Debarment List
+              
+              
+              
+               
+                
+             
+              
+ 
+                Announcements
+              
+              
+              
+               
+                
+             
+              
+ 
+                Awards
+              
+              
+              
+               
+                
+             
+              
+ 
+                Site compatibility",,,,,
+MIS Reports,,,,,
+,,,,,
+Tenders by Location,,,,,
+,,,,,
+Tenders by Organisation,,,,,
+,,,,,
+Tenders by Classification,,,,,
+,,,,,
+Tenders in Archive,,,,,
+,,,,,
+Tenders Status,,,,,
+,,,,,
+Cancelled/Retendered,,,,,
+,,,,,
+Downloads,,,,,
+,,,,,
+Debarment List,,,,,
+,,,,,
+Announcements,,,,,
+,,,,,
+Awards,,,,,
+,,,,,
+Site compatibility,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+"Welcome to eProcurement System
+The eProcurement System enables the Tenderers to download the Tender Schedule free of cost and then submit the bids online through this portal.",,,,,
+,,,,,
+,,,,,
+"Tender Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Engagement of user fee agency on the basis of EQ through etender for Annampalli FP (Km 78.000) for rehabilitation and upgradation of Gurajanapalli to Pasarlapudi of NH-216 to two lane with paved shoulder in the State of Andhra Pradesh on EPC mode
+NHAI/13013/547/ CO/22-23/EQ/ Annampalli FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+2. Procurement of Intel Based 2U Rack Server with Intel Xeon Gold 6238R Processor, 16 Gigabit LAN and power cable
+34-IMP-32-P-22
+02-Mar-2023 03:00 PM
+03-Mar-2023 03:00 PM
+ 
+3. Tender for Rate Contract for the period of 2 (Two) years for comprehensive AMC of UPS installed at LCNG, COCO, OLS and DBS CNG Stations at Nashik GA.
+MNGL/CP/2022-23/201
+23-Feb-2023 03:00 PM
+24-Feb-2023 04:00 PM
+ 
+4. Procurement of Automated Microwave Synthesizer (MWS) with batch capacity
+34-IMP-13-P-22
+02-Mar-2023 01:00 PM
+03-Mar-2023 01:00 PM
+ 
+5. Repair of Public Toilet Blocks at 1554, Teplist Colony Kashmere Gate and Imp./repair of Urinals of Kashmiri Gate in Ward No. 74, Chandni Chowk CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.08
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+6. Engagement of user fee agency on the basis of EQ through etender for Kherli Daula and IGI User FP for Delhi-Gurgaon sec of NH8 into Access Controlled 8/6 lane Highway in the state of Delhi and Haryana
+NHAI/13013/547/CO/22-23/EQ/ Kherli Daula IGI FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+7. Road Marking at various roads/lanes and painting of Manholes/Gully Chambers in Ward 74, Chandni Chowk, CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.09
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+8. IE for Const of 4lane AC GF Atal Progway Chambal Expway from 94.100 sada ka pada in Sheopur to 155.400 Chhavar in Sheopur Pkg3-Const of 4lane AC GF Atal Progway Chambal Expway from 155.400 Chhavar in Sheopur to 206.000 Jhundpura in Morena Pkg4 
+NHAI/HQ/MP/ AtalProgressway/IE/ Pkg-3n4/2023
+13-Mar-2023 11:00 AM
+14-Mar-2023 11:30 AM
+ 
+9. Procurement of Chemicals
+5(22)/2022/Pur/T-175
+23-Feb-2023 03:00 PM
+24-Feb-2023 03:00 PM
+ 
+10. Operation and Maintenance of SS, Terminal Building, MSSR, Colony and NDB at VSS Airport, Jharsuguda for two years (2023-2025)
+AAI/JSG/AGM(EE)/eNIT-13/2023
+02-Mar-2023 06:00 PM
+06-Mar-2023 09:00 AM
+     Latest Tenders updates every 15 mins.
+      More...
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+Corrigendum Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+2. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+3. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+4. Tech Report part 5
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+5. Tech Report part 4
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+6. Tech Report part 3
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+7. Tech Report part 2
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+8. Tech Report part 1
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+9. Final TDDR and ETC data
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+10. Corrigendum 09-02-2023
+NHIPMPL/2022-23/KK/AE/43
+20-Feb-2023 11:00 AM
+21-Feb-2023 11:30 AM
+  
+   
+       Latest Corrigendum updates every 15 mins.
+      More...",,,,,
+,,,,,
+Certifying Agency,,,,,
+Welcome to eProcurement System,,,,,
+The eProcurement System enables the Tenderers to download the Tender Schedule free of cost and then submit the bids online through this portal.,,,,,
+,,,,,
+,,,,,
+"Tender Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Engagement of user fee agency on the basis of EQ through etender for Annampalli FP (Km 78.000) for rehabilitation and upgradation of Gurajanapalli to Pasarlapudi of NH-216 to two lane with paved shoulder in the State of Andhra Pradesh on EPC mode
+NHAI/13013/547/ CO/22-23/EQ/ Annampalli FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+2. Procurement of Intel Based 2U Rack Server with Intel Xeon Gold 6238R Processor, 16 Gigabit LAN and power cable
+34-IMP-32-P-22
+02-Mar-2023 03:00 PM
+03-Mar-2023 03:00 PM
+ 
+3. Tender for Rate Contract for the period of 2 (Two) years for comprehensive AMC of UPS installed at LCNG, COCO, OLS and DBS CNG Stations at Nashik GA.
+MNGL/CP/2022-23/201
+23-Feb-2023 03:00 PM
+24-Feb-2023 04:00 PM
+ 
+4. Procurement of Automated Microwave Synthesizer (MWS) with batch capacity
+34-IMP-13-P-22
+02-Mar-2023 01:00 PM
+03-Mar-2023 01:00 PM
+ 
+5. Repair of Public Toilet Blocks at 1554, Teplist Colony Kashmere Gate and Imp./repair of Urinals of Kashmiri Gate in Ward No. 74, Chandni Chowk CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.08
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+6. Engagement of user fee agency on the basis of EQ through etender for Kherli Daula and IGI User FP for Delhi-Gurgaon sec of NH8 into Access Controlled 8/6 lane Highway in the state of Delhi and Haryana
+NHAI/13013/547/CO/22-23/EQ/ Kherli Daula IGI FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+7. Road Marking at various roads/lanes and painting of Manholes/Gully Chambers in Ward 74, Chandni Chowk, CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.09
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+8. IE for Const of 4lane AC GF Atal Progway Chambal Expway from 94.100 sada ka pada in Sheopur to 155.400 Chhavar in Sheopur Pkg3-Const of 4lane AC GF Atal Progway Chambal Expway from 155.400 Chhavar in Sheopur to 206.000 Jhundpura in Morena Pkg4 
+NHAI/HQ/MP/ AtalProgressway/IE/ Pkg-3n4/2023
+13-Mar-2023 11:00 AM
+14-Mar-2023 11:30 AM
+ 
+9. Procurement of Chemicals
+5(22)/2022/Pur/T-175
+23-Feb-2023 03:00 PM
+24-Feb-2023 03:00 PM
+ 
+10. Operation and Maintenance of SS, Terminal Building, MSSR, Colony and NDB at VSS Airport, Jharsuguda for two years (2023-2025)
+AAI/JSG/AGM(EE)/eNIT-13/2023
+02-Mar-2023 06:00 PM
+06-Mar-2023 09:00 AM
+     Latest Tenders updates every 15 mins.
+      More...",,,,,
+,,,,,
+,,,,,
+"Corrigendum Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+2. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+3. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+4. Tech Report part 5
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+5. Tech Report part 4
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+6. Tech Report part 3
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+7. Tech Report part 2
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+8. Tech Report part 1
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+9. Final TDDR and ETC data
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+10. Corrigendum 09-02-2023
+NHIPMPL/2022-23/KK/AE/43
+20-Feb-2023 11:00 AM
+21-Feb-2023 11:30 AM
+  
+   
+       Latest Corrigendum updates every 15 mins.
+      More...",,,,,
+"Tender Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Engagement of user fee agency on the basis of EQ through etender for Annampalli FP (Km 78.000) for rehabilitation and upgradation of Gurajanapalli to Pasarlapudi of NH-216 to two lane with paved shoulder in the State of Andhra Pradesh on EPC mode
+NHAI/13013/547/ CO/22-23/EQ/ Annampalli FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+2. Procurement of Intel Based 2U Rack Server with Intel Xeon Gold 6238R Processor, 16 Gigabit LAN and power cable
+34-IMP-32-P-22
+02-Mar-2023 03:00 PM
+03-Mar-2023 03:00 PM
+ 
+3. Tender for Rate Contract for the period of 2 (Two) years for comprehensive AMC of UPS installed at LCNG, COCO, OLS and DBS CNG Stations at Nashik GA.
+MNGL/CP/2022-23/201
+23-Feb-2023 03:00 PM
+24-Feb-2023 04:00 PM
+ 
+4. Procurement of Automated Microwave Synthesizer (MWS) with batch capacity
+34-IMP-13-P-22
+02-Mar-2023 01:00 PM
+03-Mar-2023 01:00 PM
+ 
+5. Repair of Public Toilet Blocks at 1554, Teplist Colony Kashmere Gate and Imp./repair of Urinals of Kashmiri Gate in Ward No. 74, Chandni Chowk CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.08
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+6. Engagement of user fee agency on the basis of EQ through etender for Kherli Daula and IGI User FP for Delhi-Gurgaon sec of NH8 into Access Controlled 8/6 lane Highway in the state of Delhi and Haryana
+NHAI/13013/547/CO/22-23/EQ/ Kherli Daula IGI FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+7. Road Marking at various roads/lanes and painting of Manholes/Gully Chambers in Ward 74, Chandni Chowk, CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.09
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+8. IE for Const of 4lane AC GF Atal Progway Chambal Expway from 94.100 sada ka pada in Sheopur to 155.400 Chhavar in Sheopur Pkg3-Const of 4lane AC GF Atal Progway Chambal Expway from 155.400 Chhavar in Sheopur to 206.000 Jhundpura in Morena Pkg4 
+NHAI/HQ/MP/ AtalProgressway/IE/ Pkg-3n4/2023
+13-Mar-2023 11:00 AM
+14-Mar-2023 11:30 AM
+ 
+9. Procurement of Chemicals
+5(22)/2022/Pur/T-175
+23-Feb-2023 03:00 PM
+24-Feb-2023 03:00 PM
+ 
+10. Operation and Maintenance of SS, Terminal Building, MSSR, Colony and NDB at VSS Airport, Jharsuguda for two years (2023-2025)
+AAI/JSG/AGM(EE)/eNIT-13/2023
+02-Mar-2023 06:00 PM
+06-Mar-2023 09:00 AM
+     Latest Tenders updates every 15 mins.
+      More...",,,,,
+Tender Title,Reference No,Closing Date,Bid Opening Date,,
+"1. Engagement of user fee agency on the basis of EQ through etender for Annampalli FP (Km 78.000) for rehabilitation and upgradation of Gurajanapalli to Pasarlapudi of NH-216 to two lane with paved shoulder in the State of Andhra Pradesh on EPC mode
+NHAI/13013/547/ CO/22-23/EQ/ Annampalli FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+2. Procurement of Intel Based 2U Rack Server with Intel Xeon Gold 6238R Processor, 16 Gigabit LAN and power cable
+34-IMP-32-P-22
+02-Mar-2023 03:00 PM
+03-Mar-2023 03:00 PM
+ 
+3. Tender for Rate Contract for the period of 2 (Two) years for comprehensive AMC of UPS installed at LCNG, COCO, OLS and DBS CNG Stations at Nashik GA.
+MNGL/CP/2022-23/201
+23-Feb-2023 03:00 PM
+24-Feb-2023 04:00 PM
+ 
+4. Procurement of Automated Microwave Synthesizer (MWS) with batch capacity
+34-IMP-13-P-22
+02-Mar-2023 01:00 PM
+03-Mar-2023 01:00 PM
+ 
+5. Repair of Public Toilet Blocks at 1554, Teplist Colony Kashmere Gate and Imp./repair of Urinals of Kashmiri Gate in Ward No. 74, Chandni Chowk CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.08
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+6. Engagement of user fee agency on the basis of EQ through etender for Kherli Daula and IGI User FP for Delhi-Gurgaon sec of NH8 into Access Controlled 8/6 lane Highway in the state of Delhi and Haryana
+NHAI/13013/547/CO/22-23/EQ/ Kherli Daula IGI FP
+15-Feb-2023 11:00 AM
+16-Feb-2023 11:30 AM
+ 
+7. Road Marking at various roads/lanes and painting of Manholes/Gully Chambers in Ward 74, Chandni Chowk, CSPZ
+EE(M)-II/CITY-SPZ/22-23/26.09
+16-Feb-2023 12:00 PM
+16-Feb-2023 12:10 PM
+ 
+8. IE for Const of 4lane AC GF Atal Progway Chambal Expway from 94.100 sada ka pada in Sheopur to 155.400 Chhavar in Sheopur Pkg3-Const of 4lane AC GF Atal Progway Chambal Expway from 155.400 Chhavar in Sheopur to 206.000 Jhundpura in Morena Pkg4 
+NHAI/HQ/MP/ AtalProgressway/IE/ Pkg-3n4/2023
+13-Mar-2023 11:00 AM
+14-Mar-2023 11:30 AM
+ 
+9. Procurement of Chemicals
+5(22)/2022/Pur/T-175
+23-Feb-2023 03:00 PM
+24-Feb-2023 03:00 PM
+ 
+10. Operation and Maintenance of SS, Terminal Building, MSSR, Colony and NDB at VSS Airport, Jharsuguda for two years (2023-2025)
+AAI/JSG/AGM(EE)/eNIT-13/2023
+02-Mar-2023 06:00 PM
+06-Mar-2023 09:00 AM",,,,,
+Latest Tenders updates every 15 mins.,More...,,,,
+1. Engagement of user fee agency on the basis of EQ through etender for Annampalli FP (Km 78.000) for rehabilitation and upgradation of Gurajanapalli to Pasarlapudi of NH-216 to two lane with paved shoulder in the State of Andhra Pradesh on EPC mode,NHAI/13013/547/ CO/22-23/EQ/ Annampalli FP,15-Feb-2023 11:00 AM,16-Feb-2023 11:30 AM,,
+"2. Procurement of Intel Based 2U Rack Server with Intel Xeon Gold 6238R Processor, 16 Gigabit LAN and power cable",34-IMP-32-P-22,02-Mar-2023 03:00 PM,03-Mar-2023 03:00 PM,,
+"3. Tender for Rate Contract for the period of 2 (Two) years for comprehensive AMC of UPS installed at LCNG, COCO, OLS and DBS CNG Stations at Nashik GA.",MNGL/CP/2022-23/201,23-Feb-2023 03:00 PM,24-Feb-2023 04:00 PM,,
+4. Procurement of Automated Microwave Synthesizer (MWS) with batch capacity,34-IMP-13-P-22,02-Mar-2023 01:00 PM,03-Mar-2023 01:00 PM,,
+"5. Repair of Public Toilet Blocks at 1554, Teplist Colony Kashmere Gate and Imp./repair of Urinals of Kashmiri Gate in Ward No. 74, Chandni Chowk CSPZ",EE(M)-II/CITY-SPZ/22-23/26.08,16-Feb-2023 12:00 PM,16-Feb-2023 12:10 PM,,
+6. Engagement of user fee agency on the basis of EQ through etender for Kherli Daula and IGI User FP for Delhi-Gurgaon sec of NH8 into Access Controlled 8/6 lane Highway in the state of Delhi and Haryana,NHAI/13013/547/CO/22-23/EQ/ Kherli Daula IGI FP,15-Feb-2023 11:00 AM,16-Feb-2023 11:30 AM,,
+"7. Road Marking at various roads/lanes and painting of Manholes/Gully Chambers in Ward 74, Chandni Chowk, CSPZ",EE(M)-II/CITY-SPZ/22-23/26.09,16-Feb-2023 12:00 PM,16-Feb-2023 12:10 PM,,
+8. IE for Const of 4lane AC GF Atal Progway Chambal Expway from 94.100 sada ka pada in Sheopur to 155.400 Chhavar in Sheopur Pkg3-Const of 4lane AC GF Atal Progway Chambal Expway from 155.400 Chhavar in Sheopur to 206.000 Jhundpura in Morena Pkg4,NHAI/HQ/MP/ AtalProgressway/IE/ Pkg-3n4/2023,13-Mar-2023 11:00 AM,14-Mar-2023 11:30 AM,,
+9. Procurement of Chemicals,5(22)/2022/Pur/T-175,23-Feb-2023 03:00 PM,24-Feb-2023 03:00 PM,,
+"10. Operation and Maintenance of SS, Terminal Building, MSSR, Colony and NDB at VSS Airport, Jharsuguda for two years (2023-2025)",AAI/JSG/AGM(EE)/eNIT-13/2023,02-Mar-2023 06:00 PM,06-Mar-2023 09:00 AM,,
+"Corrigendum Title
+Reference No
+Closing Date
+Bid Opening Date
+ 
+ 
+ 
+1. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+2. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+3. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+4. Tech Report part 5
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+5. Tech Report part 4
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+6. Tech Report part 3
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+7. Tech Report part 2
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+8. Tech Report part 1
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+9. Final TDDR and ETC data
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+10. Corrigendum 09-02-2023
+NHIPMPL/2022-23/KK/AE/43
+20-Feb-2023 11:00 AM
+21-Feb-2023 11:30 AM
+  
+   
+       Latest Corrigendum updates every 15 mins.
+      More...",,,,,
+Corrigendum Title,Reference No,Closing Date,Bid Opening Date,,
+"1. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+2. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+3. Corr.NIT No.34
+EE-M-III/SZ/TC/2022-23/34
+16-Feb-2023 03:00 PM
+16-Feb-2023 03:05 PM
+ 
+4. Tech Report part 5
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+5. Tech Report part 4
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+6. Tech Report part 3
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+7. Tech Report part 2
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+8. Tech Report part 1
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+9. Final TDDR and ETC data
+NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2
+10-Mar-2023 11:00 AM
+13-Mar-2023 11:30 AM
+ 
+10. Corrigendum 09-02-2023
+NHIPMPL/2022-23/KK/AE/43
+20-Feb-2023 11:00 AM
+21-Feb-2023 11:30 AM",,,,,
+Latest Corrigendum updates every 15 mins.,More...,,,,
+1. Corr.NIT No.34,EE-M-III/SZ/TC/2022-23/34,16-Feb-2023 03:00 PM,16-Feb-2023 03:05 PM,,
+2. Corr.NIT No.34,EE-M-III/SZ/TC/2022-23/34,16-Feb-2023 03:00 PM,16-Feb-2023 03:05 PM,,
+3. Corr.NIT No.34,EE-M-III/SZ/TC/2022-23/34,16-Feb-2023 03:00 PM,16-Feb-2023 03:05 PM,,
+4. Tech Report part 5,NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2,10-Mar-2023 11:00 AM,13-Mar-2023 11:30 AM,,
+5. Tech Report part 4,NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2,10-Mar-2023 11:00 AM,13-Mar-2023 11:30 AM,,
+6. Tech Report part 3,NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2,10-Mar-2023 11:00 AM,13-Mar-2023 11:30 AM,,
+7. Tech Report part 2,NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2,10-Mar-2023 11:00 AM,13-Mar-2023 11:30 AM,,
+8. Tech Report part 1,NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2,10-Mar-2023 11:00 AM,13-Mar-2023 11:30 AM,,
+9. Final TDDR and ETC data,NHAI/AM/TOT/2022-23/ TOTBundle 11 and 12/2,10-Mar-2023 11:00 AM,13-Mar-2023 11:30 AM,,
+10. Corrigendum 09-02-2023,NHIPMPL/2022-23/KK/AE/43,20-Feb-2023 11:00 AM,21-Feb-2023 11:30 AM,,
+Certifying Agency,,,,,
+,,,,,
+,,,,,
+"<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>
+     
+ 
+   Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>
+ 
+  Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>
+ 
+  Find My Nodal Officer
+     
+  
+ 
+document.getElementById(""login"").style.display='block';
+var all = document.getElementsByClassName(""Clickhere"");
+for (var i = 0; i < all.length; i++) {
+all[i].style.display = 'block';
+    }",,,,,
+Search with ID/Title/Reference no,,,,,
+Advanced Search,,,,,
+"Help For Contractors
+              
+Information About DSC
+            Guidelines for Hassle Free Bid Submission
+              
+              
+              
+FAQ
+              
+Feedback
+              
+Bidders Manual Kit",,,,,
+"<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>
+     
+ 
+   Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>
+ 
+  Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>
+ 
+  Find My Nodal Officer",,,,,
+"<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>
+     
+ 
+   Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>
+ 
+  Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>
+ 
+  Find My Nodal Officer",,,,,
+"<a href="""" title=""Login"" ><img src=""images/home_login_button_2.png"" align=""absmiddle"" border=""0""> </a>     
+ 
+                                       <p align=""justify"" style=""color:red;"">Your browser JavaScript has been disabled. Kindly enable script for further process.</p>",,,,,
+"Online Bidder Enrollment
+ <span  class=""Clickhere""  title=""Online Bidder Enrollment"" style=""color: #a03901;"">&nbsp; Online Bidder Enrollment</span>",,,,,
+"Generate / Forgot Password?
+<span  class=""Clickhere""  title=""Generate / Forgot Password"" style=""color: #a03901;"">&nbsp; Generate / Forgot Password?</span>",,,,,
+Find My Nodal Officer,,,,,
+,,,,,
+Advanced Search,,,,,
+Advanced Search,,,,,
+,,,,,
+,,,,,
+Advanced Search,,,,,
+"Help For Contractors
+              
+Information About DSC
+            Guidelines for Hassle Free Bid Submission
+              
+              
+              
+FAQ
+              
+Feedback
+              
+Bidders Manual Kit",,,,,
+"Help For Contractors
+              
+Information About DSC
+            Guidelines for Hassle Free Bid Submission
+              
+              
+              
+FAQ
+              
+Feedback
+              
+Bidders Manual Kit",,,,,
+Visitor No:3791839,,,,,
+"Contents owned and maintained by concerned Departments in coordination with Finance Department and Information Technology Department, Government of India",,,,,
+"Designed, Developed and Hosted by  National Informatics Centre
+ Version : 1.09.18 04-Feb-2023
+(c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.
+Portal policies",,,,,
+"Designed, Developed and Hosted by  National Informatics Centre","Version : 1.09.18 04-Feb-2023
+(c) 2017 Tenders NIC, All rights reserved.Site best viewed in IE 10 and above, with a screen resolution 1024 x 768.",Portal policies,,,
